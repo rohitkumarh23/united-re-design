@@ -620,24 +620,453 @@ h4 {
     }
 }
 
-/* xs sm */
-@media (max-width : 389px) {
+
+/* xs */
+
+
+
+
+
+
+/* lg */
+@media(min-width: 1200px) {
+    #hide {
+        display: none;
+        right: 0;
+    }
+
+    .head {
+        height: 57vh;
+    }
+
+    .headtext {
+        font-size: 37px;
+    }
+
+    .headtext2 {
+        font-size: 37px;
+    }
+
+    .headp {
+        text-align: justify;
+        font-size: 20px;
+    }
+
+    .headimg {
+        width: 460px;
+        height: 400px;
+    }
+
+    .button3 {
+        margin-left: -20px;
+    }
+
+    .master {
+        width: 205px;
+    }
+
+    .masterh {
+        text-align: start;
+    }
+
+    .yes {
+        margin-left: 110px;
+    }
+
+    #skills {
+        width: 455px;
+    }
+
+    #course {
+        width: 406px;
+    }
+
+    .yes {
+        margin-left: 170px;
+    }
+
+
+
+    .diploma-btn {
+        font-size: 20px;
+    }
+
+    #diploma-btn2 {
+        border: 1px solid black;
+        border-radius: 12px;
+        height: 48px;
+        font-size: 20px;
+        width: 250px;
+    }
+
+    .master>h5 {
+
+        font-size: 20px;
+    }
+
+    .masterp {
+        font-size: 18px;
+    }
+
+    .syllabus {
+        margin-left: 9px;
+        border: 1px solid black;
+        border-radius: 30px;
+        width: 699px;
+        padding: 10px;
+    }
+
+    .sy {
+        font-size: 27px;
+    }
+
+    .dbtn {
+        width: 200px;
+        font-size: 17px;
+    }
+
+    .coursep1 {
+        font-size: 20px;
+    }
+
+    .coursep {
+        font-size: 18px;
+    }
+
+    .dbtn2 {
+        width: 155px;
+        font-size: 17px;
+    }
+
+    #gg {
+        margin-top: 45px;
+    }
+
+    .kt {
+        display: none;
+    }
+
+    .project {
+        border: 1px solid black;
+        border-radius: 20px;
+        width: 350px;
+        background-color: #FFFAEA;
+    }
+
+    .project {
+        display: block;
+    }
+
+    .project2 {
+        border: 1px solid black;
+        border-radius: 20px;
+        width: 350px;
+        background-color: #FFFAEA;
+    }
+
+    #hide2 {
+        display: none;
+    }
+
+    .benefit-div {
+        background-color: #FFFAEA;
+        height: 540px;
+        border-radius: 20px;
+    }
+
+    .li {
+        color: rgb(0, 89, 255);
+        font-size: 27px;
+        margin-bottom: 10px;
+    }
+
+    .li2 {
+        color: black;
+        font-size: 22px;
+    }
+    .diploma-pay{
+        font-weight: 500;
+        margin-left: 210px;
+    }
+    
+    .diploma-pay-2{
+        color: grey; font-weight: 500;margin-left: 15px;
+    }
+
+    .story-img2{
+        width: 588px;
+    }
+    .story-h3-3{
+        left: 35%;
+    }
+    .story-p{
+        left: 30%;
+    }
+
+}
+
+@media (max-width : 1200px){
+    #hide {
+        display: none;
+        right: 0;
+    }
+    .nav-div{
+        height: 100px;
+    }
+
+    .head {
+        height: 57vh;
+    }
+
+    .headtext {
+        font-size: 37px;
+    }
+
+    .headtext2 {
+        font-size: 37px;
+    }
+
+    .headp {
+        text-align: justify;
+        font-size: 20px;
+    }
+
+    .headimg {
+        width: 460px;
+        height: 400px;
+    }
+
+    .button3 {
+        margin-left: 68px;
+    }
+    .buttonh{
+        width: 90px;
+    }
+}
+
+@media (max-width : 992px){
+    #hide {
+        display: none;
+        left: 0;
+    }
+
+    #canvastext{
+        display: none;
+    }
+}
+/* md */
+@media (max-width : 768px) {
+
     #hide {
         display: inline;
         right: 0;
+    }
+
+    .head {
+        height: 48vh;
+    }
+
+    .headtext {
+        font-size: 22px;
+    }
+
+    .headtext2 {
+        font-size: 22px;
+    }
+
+    .headp {
+        text-align: justify;
+        font-size: 2vw;
+    }
+
+    .headimg {
+        top: 0px;
+        width: 230px;
+        height: 300px;
+    }
+
+    .explore {
+        margin-top: -0px;
+        text-align: center;
+    }
+
+    .on {
+        padding: 50px;
+        margin: 30px;
+    }
+
+    .jobp {
+        font-size: 22px;
+    }
+
+    .button3 {
+        margin-left: 230px;
+    }
+
+    .masterh {
+        text-align: center;
+    }
+
+    #skills {
+        width: 345px;
+    }
+
+    #course {
+        width: 300px;
+    }
+
+    #skillimg {
+        height: 400px;
+    }
+
+    #row-skill {
+        margin-left: 30px;
+    }
+
+    .master {
+        margin-left: 64px;
+    }
+
+
+    .diploma-btn:hover {
+        box-shadow: black 5px 4px;
+        border: 2px solid black;
+        background-color: #0B5ED7;
+        color: white;
+    }
+
+    .diploma-btn {
+        font-size: 12px;
+    }
+
+    #diploma-btn2 {
+        width: 103px;
+        height: 49px;
+        font-size: 12px;
+    }
+
+    #diploma-img {
+        height: 600px;
+    }
+
+    .master {
+        width: 200px;
+    }
+
+    .master>h5 {
+
+        font-size: 20px;
+    }
+
+    .masterp {
+        font-size: 18px;
+    }
+
+    .kt {
+        display: none;
+    }
+
+    .project {
+        border: 1px solid black;
+        border-radius: 20px;
+        width: 320px;
+        background-color: #FFFAEA;
+    }
+
+    .project {
+        display: block;
+    }
+
+    .dbtn3 {
+        margin: 10px;
+        width: 130px;
+        font-size: 15px;
+    }
+    .diploma-pay{
+        font-weight: 500;
+        margin-left: 10px;
+    }
+    .diploma-pay-2{
+        color: grey; font-weight: 500;margin-left: 15px;
+    }
+}
+
+/* sm */
+@media (max-width : 578px) {
+    #hide {
+        display: inline;
+        right: 0;
+    }
+
+    #red {
+        margin-left: 0px;
+    }
+
+    .nav-img {
+        width: 100px;
+    }
+
+    #hide {
+        display: inline;
+        right: 0;
+    }
+
+    .head {
+        height: 99vh;
+    }
+
+    .headimg {
+        margin-left: 37px;
+        width: 270px;
+        height: 226px;
+    }
+
+    .explore {
+        margin-top: -0px;
+        text-align: center;
+    }
+
+    .headtext {
+        font-size: 25px;
+    }
+
+    .headtext2 {
+        font-size: 24px;
+    }
+
+    .heada {
+        margin-top: 0px;
+        text-align: center;
+    }
+
+    .headp {
+        text-align: justify;
+        font-size: 3vw;
+    }
+
+    #on {
+        margin-left: 60px;
+    }
+
+    .diploma-btn:hover {
+        box-shadow: black 5px 4px;
+        border: 2px solid black;
+        background-color: #0B5ED7;
+        color: white;
+    }
+
+    .kt {
+        display: block;
     }
 
     .project {
         display: none;
     }
 
-    .kt {
-        display: block;
-    }
+
 }
 
-/* xs */
-@media (min-width : 390px) {
+@media (max-width : 450px) {
     #on {
         margin-left: 20px;
     }
@@ -848,392 +1277,7 @@ h4 {
 }
 
 
-/* sm */
-@media (min-width : 475px) {
-    #hide {
-        display: inline;
-        right: 0;
-    }
 
-    #red {
-        margin-left: 0px;
-    }
 
-    .nav-img {
-        width: 100px;
-    }
 
-    #hide {
-        display: inline;
-        right: 0;
-    }
 
-    .head {
-        height: 99vh;
-    }
-
-    .headimg {
-        margin-left: 37px;
-        width: 270px;
-        height: 226px;
-    }
-
-    .explore {
-        margin-top: -0px;
-        text-align: center;
-    }
-
-    .headtext {
-        font-size: 25px;
-    }
-
-    .headtext2 {
-        font-size: 24px;
-    }
-
-    .heada {
-        margin-top: 0px;
-        text-align: center;
-    }
-
-    .headp {
-        text-align: justify;
-        font-size: 3vw;
-    }
-
-    #on {
-        margin-left: 60px;
-    }
-
-    .diploma-btn:hover {
-        box-shadow: black 5px 4px;
-        border: 2px solid black;
-        background-color: #0B5ED7;
-        color: white;
-    }
-
-    .kt {
-        display: block;
-    }
-
-    .project {
-        display: none;
-    }
-
-
-}
-
-
-/* md */
-@media (min-width : 768px) {
-
-    #hide {
-        display: inline;
-        right: 0;
-    }
-
-    .head {
-        height: 48vh;
-    }
-
-    .headtext {
-        font-size: 22px;
-    }
-
-    .headtext2 {
-        font-size: 22px;
-    }
-
-    .headp {
-        text-align: justify;
-        font-size: 2vw;
-    }
-
-    .headimg {
-        top: 0px;
-        width: 230px;
-        height: 300px;
-    }
-
-    .explore {
-        margin-top: -0px;
-        text-align: center;
-    }
-
-    .on {
-        padding: 50px;
-        margin: 30px;
-    }
-
-    .jobp {
-        font-size: 22px;
-    }
-
-    .button3 {
-        margin-left: 230px;
-    }
-
-    .masterh {
-        text-align: center;
-    }
-
-    #skills {
-        width: 345px;
-    }
-
-    #course {
-        width: 300px;
-    }
-
-    #skillimg {
-        height: 400px;
-    }
-
-    #row-skill {
-        margin-left: 30px;
-    }
-
-    .master {
-        margin-left: 64px;
-    }
-
-
-    .diploma-btn:hover {
-        box-shadow: black 5px 4px;
-        border: 2px solid black;
-        background-color: #0B5ED7;
-        color: white;
-    }
-
-    .diploma-btn {
-        font-size: 12px;
-    }
-
-    #diploma-btn2 {
-        width: 103px;
-        height: 49px;
-        font-size: 12px;
-    }
-
-    #diploma-img {
-        height: 600px;
-    }
-
-    .master {
-        width: 200px;
-    }
-
-    .master>h5 {
-
-        font-size: 20px;
-    }
-
-    .masterp {
-        font-size: 18px;
-    }
-
-    .kt {
-        display: none;
-    }
-
-    .project {
-        border: 1px solid black;
-        border-radius: 20px;
-        width: 320px;
-        background-color: #FFFAEA;
-    }
-
-    .project {
-        display: block;
-    }
-
-    .dbtn3 {
-        margin: 10px;
-        width: 130px;
-        font-size: 15px;
-    }
-    .diploma-pay{
-        font-weight: 500;
-        margin-left: 10px;
-    }
-    .diploma-pay-2{
-        color: grey; font-weight: 500;margin-left: 15px;
-    }
-}
-
-/* lg */
-@media(min-width: 1536px) {
-    #hide {
-        display: none;
-        right: 0;
-    }
-
-    .head {
-        height: 57vh;
-    }
-
-    .headtext {
-        font-size: 37px;
-    }
-
-    .headtext2 {
-        font-size: 37px;
-    }
-
-    .headp {
-        text-align: justify;
-        font-size: 20px;
-    }
-
-    .headimg {
-        width: 460px;
-        height: 400px;
-    }
-
-    .button3 {
-        margin-left: -20px;
-    }
-
-    .master {
-        width: 205px;
-    }
-
-    .masterh {
-        text-align: start;
-    }
-
-    .yes {
-        margin-left: 110px;
-    }
-
-    #skills {
-        width: 455px;
-    }
-
-    #course {
-        width: 406px;
-    }
-
-    .yes {
-        margin-left: 170px;
-    }
-
-
-
-    .diploma-btn {
-        font-size: 20px;
-    }
-
-    #diploma-btn2 {
-        border: 1px solid black;
-        border-radius: 12px;
-        height: 48px;
-        font-size: 20px;
-        width: 250px;
-    }
-
-    .master>h5 {
-
-        font-size: 20px;
-    }
-
-    .masterp {
-        font-size: 18px;
-    }
-
-    .syllabus {
-        margin-left: 9px;
-        border: 1px solid black;
-        border-radius: 30px;
-        width: 699px;
-        padding: 10px;
-    }
-
-    .sy {
-        font-size: 27px;
-    }
-
-    .dbtn {
-        width: 200px;
-        font-size: 17px;
-    }
-
-    .coursep1 {
-        font-size: 20px;
-    }
-
-    .coursep {
-        font-size: 18px;
-    }
-
-    .dbtn2 {
-        width: 155px;
-        font-size: 17px;
-    }
-
-    #gg {
-        margin-top: 45px;
-    }
-
-    .kt {
-        display: none;
-    }
-
-    .project {
-        border: 1px solid black;
-        border-radius: 20px;
-        width: 350px;
-        background-color: #FFFAEA;
-    }
-
-    .project {
-        display: block;
-    }
-
-    .project2 {
-        border: 1px solid black;
-        border-radius: 20px;
-        width: 350px;
-        background-color: #FFFAEA;
-    }
-
-    #hide2 {
-        display: none;
-    }
-
-    .benefit-div {
-        background-color: #FFFAEA;
-        height: 540px;
-        border-radius: 20px;
-    }
-
-    .li {
-        color: rgb(0, 89, 255);
-        font-size: 27px;
-        margin-bottom: 10px;
-    }
-
-    .li2 {
-        color: black;
-        font-size: 22px;
-    }
-    .diploma-pay{
-        font-weight: 500;
-        margin-left: 210px;
-    }
-    
-    .diploma-pay-2{
-        color: grey; font-weight: 500;margin-left: 15px;
-    }
-
-    .story-img2{
-        width: 588px;
-    }
-    .story-h3-3{
-        left: 35%;
-    }
-    .story-p{
-        left: 30%;
-    }
-
-}
