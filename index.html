@@ -17,17 +17,17 @@
 
 
 
+
   <!-- top -->
   <section>
     <div class="container-fluid top">
       <div class="row">
-        <div class=" col-12 col-lg-4 col-md-3   gap-3 mt-3 " style="display: flex;flex-wrap: wrap;flex-direction: row;">
+        <div class=" col-12 col-lg-4 col-md-3 gap-3 mt-3 top-banner">
           <div id="red"></div>
           <div id="green"></div>
           <div id="blue"></div>
         </div>
-        <div class="col-6  col-lg-4 col-md-5 col-sm-5  mt-2 gap-3"
-          style="display: flex;flex-direction: row; flex-wrap: wrap;">
+        <div class="col-6  col-lg-4 col-md-5 col-sm-5  mt-2 gap-3 top-banner">
           <h5 class="mt-2" style="font-weight: 650;font-size: 15px; ">Learn From Microsoft Certified Expert</h5>
 
         </div>
@@ -41,17 +41,14 @@
   </section>
   <!-- top end -->
 
-  <div style="background-color: #042F72;">
+  <div id="main-div">
 
     <!-- navbar -->
     <section>
-      <div class="container-fluid mt-1"
-        style="border-radius: 13px;width: 95%;background-image: url(images/Rectangle\ 1.png);height: 90px;background-repeat: no-repeat; background-size: cover;">
+      <div class="container-fluid mt-1 nav-div">
         <nav class="navbar navbar-expand-lg bg-body-tertiary">
           <div class="container-fluid">
             <img class="nav-img" src="images/United Logo (1) 1.png" alt="">
-
-
             <a id="hide" class="btn btn-outline-light" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button"
               aria-controls="offcanvasExample">
               <span class="navbar-toggler-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="25"
@@ -75,25 +72,25 @@
                 <li class="nav-item">
                   <img src="images/website-united-logo__2_-removebg-preview.png" alt="">
                   <hr>
-                  <a class="nav-link active" aria-current="page" href="#" style="color: black;">Home</a>
+                  <a class="nav-link active" aria-current="page" href="#" id="canvastext">Home</a>
                   <hr>
                 </li>
-               
+
                 <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#" style="color: black;">Courses</a>
-                  <hr>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#" style="color: black;">Student Project</a>
+                  <a class="nav-link active" aria-current="page" href="#" id="canvastext">Courses</a>
                   <hr>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#" style="color: black;">Blogs</a>
+                  <a class="nav-link active" aria-current="page" href="#" id="canvastext">Student Project</a>
                   <hr>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#" style="color: black;">Diploma verification</a>
-                   <hr>
+                  <a class="nav-link active" aria-current="page" href="#" id="canvastext">Blogs</a>
+                  <hr>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#" id="canvastext">Diploma verification</a>
+                  <hr>
                 </li>
                 <div id="navbtn" class="text-center">
                   <button id="btn" class="btn btn-primary mb-5 buttonh">Login</button>
@@ -134,7 +131,8 @@
     <!-- navbar end -->
 
 
-    <!-- heading -->
+
+    <!-- explore courses -->
     <section>
       <div class="container-fluid mt-3 head">
         <div class="container">
@@ -142,13 +140,13 @@
             <div class="col-lg-8 col-sm-12 col-md-7 mt-5">
               <h2 class="headtext">#1 Best Computer Training Institute</h2>
               <h2 class="headtext2">Uttam Nagar, Delhi</h2>
-              <p class="mt-4 headp" style="text-align: justify;">Take advantage of industry-ready Courses to improve
+              <p class="mt-4 headp">Take advantage of industry-ready Courses to improve
                 your
                 skills<br><span style="font-weight: bold;">in e-accounting,web development, graphic design, animation,
                   <br>
                   editing and UI/UX </span></p>
 
-              <p class="mt-3 headp" style="text-align: justify;">Enter the future equipped with the most recent tools
+              <p class="mt-3 headp">Enter the future equipped with the most recent tools
                 and<br>
                 technology driving the digital universe</p>
               <div class="row">
@@ -182,21 +180,17 @@
         </div>
       </div>
     </section>
-    <!-- heading end -->
+    <!-- explore courses end -->
 
 
     <!-- job milti nhi -->
     <section>
-      <div class="container-fluid mt-4"
-        style="background-image: url(images/background\ 3\ 1.png);background-repeat: no-repeat;background-size: cover;background-color: white;">
+      <div class="container-fluid mt-4 jobmilti">
         <div class="container mt-5">
-
           <div class="row justify-content-center px-4 mt-5" id="row-skill">
-            <div style="text-align: center;" class="mt-5">
-              <h2>Degree Hai <span style="color: red;">Skill Nahi,</span> Toh Job Milti Kyu Nahi ?</h2>
-              <a href="#" style="color: black;">
-                <h2 style="color: black;">Reasons</h2>
-              </a>
+            <div class="mt-5 job-heading">
+              <h2>Degree Hai <span class="job-heading-skill">Skill Nahi,</span> Toh Job Milti Kyu Nahi ?</h2>
+              <h2 class="job-heading-reason">Reasons</h2>
             </div>
             <div class="col-6 col-lg-4 col-md-6 mt-5">
               <img src="images/struggling with logical problems 1.jpg" class="img-fluid" alt="">
@@ -237,18 +231,16 @@
 
     <!-- master -->
     <section>
-      <div class="container-fluid p-5"
-        style="background-image: url(images/background\ 1\ \(1\)\ 1.png);background-repeat: no-repeat; background-size: cover;">
+      <div class="container-fluid p-5 master-div">
         <div class="container">
-
           <div class="row justify-content-center align-items-center">
             <div class="col-12 col-lg-5 mt-5">
               <div class="mt-2 masterh">
                 <h4>Explore the master course</h4>
-                <p style="font-size: 20px;color: white;">"we don't just teach - we transform learners into
+                <p class="master-para">"we don't just teach - we transform learners into
                   professionals"</p>
               </div>
-              <div style="margin-left: 20px;">
+              <div class="master-button">
                 <button class="btn btn-primary button3">
                   <h6>Talk To Mentor</h6>
                 </button>
@@ -321,17 +313,16 @@
           <div class="col-12 col-lg-6 col-md-6">
             <div id="skills">
 
-              <div class=" text-center mt-2">
-                <h5 style="font-size: 26px;font-weight: bold;">Start your journey</h5>
+              <div class="text-center mt-2">
+                <h5 class="skills-h5">Start your journey</h5>
               </div>
               <div class="text-center justify-content-center">
-                <div class="mb-3 mt-5" style="margin: 20px">
-                  <input type="text" style="height: 50px;background-color: #FFF4F4;" class="form-control w-55"
-                    placeholder="Enter name" aria-describedby="text">
+                <div class="mb-3 mt-5 skills-input-div">
+                  <input type="text" class="form-control w-55 input-skills" placeholder="Enter name"
+                    aria-describedby="text">
                 </div>
-                <div class="mb-2 mt-4" style="margin: 20px">
-                  <input type="tel" style="height: 50px;background-color: #FFF4F4;" class="form-control w-55"
-                    placeholder="Enter mobile">
+                <div class="mb-2 mt-4 skills-input-div">
+                  <input type="tel" class="form-control w-55 input-skills" placeholder="Enter mobile">
                 </div>
                 <select name="courses" id="course">
                   <Option value="" hidden selected>Select Course</Option>
@@ -341,9 +332,8 @@
                   <Option value="ae">Animation & Editing</Option>
                   <Option value="ux">UI/UX Designing</Option>
                 </select>
-                <div style="width: 100%;margin-top: 20px;">
-                  <button id="btn" style="width: 90%;margin-left: 23px;font-weight: bold;font-size: 19px;"
-                    class="btn btn-primary">Submit</button>
+                <div class="skills-btn-div">
+                  <button id="btn" class="btn btn-primary skills-btn">Submit</button>
                 </div>
               </div>
 
@@ -361,27 +351,382 @@
   <!-- what skills end -->
 
 
-  <!-- our diplma courses -->
+  <!-- our diploma courses -->
+  <section>
+    <div class="container mt-5 ">
+      <div class="row">
+        <div class="text-center mb-4 mt-5">
+          <h2 class="diploma-h2">Explore Our Diploma Courses</h2>
+        </div>
+        <div class="col-12 col-lg-5 col-md-5 mt-5">
+          <div class="diploma-div-btn">
+            <button class="btn btn-light diploma-btn">E Accounting</button>
+            <button class="btn btn-light diploma-btn">Web Development </button>
+          </div>
+        </div>
+        <div class="col-12 col-lg-5 col-md-5 mt-5">
+          <div class="diploma-div-btn">
+            <button class="btn btn-light diploma-btn">Graphic Designing</button>
+            <button class="btn btn-light diploma-btn">Animation & Editing</button>
+          </div>
+        </div>
+        <div class="col-12 col-lg-2 col-md-2 mt-5 mb-2">
+          <div class="diploma-btn-div">
+            <button class="btn btn-light" id="diploma-btn2">UI/UX Designing</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container mt-5 e-accounting-diploma">
+      <div class="row">
+        <div class="text-center mt-5 mb-5">
+          <h2>E Accounting Diploma Course</h2>
+        </div>
+
+        <div class="col-12 col-lg-5 col-md-5 px-5">
+          <h3>Job opportunities:</h3>
+          <p class="diploma-pay">Average base pay in India<br><span class="diploma-pay-2">(lakhs per annum)</span></p>
+        
+          <img class="img-fluid mb-5 mt-5" id="diploma-img" src="images/excel-removebg-preview.png" alt="">
+        </div>
+
+        <div class="col-12 col-lg-7 col-md-7" id="hh">
+          <div class="row gap-5">
+            <h5>Top place to hire</h5>
+            <marquee behavior="scroll" class="mt-1" direction="right" scrollamount="12" loop="infinite">
+
+              <img class="accenture" src="images/accenture.png" alt="">
+              <img class="diploma-img" src="images/Copy of paytm.svg" alt="">
+              <img class="diploma-amazon" src="images/Copy of amazon.svg" alt="">
+              <img class="diploma-img" src="images/Copy of tata-consultancy-services.svg" alt="" width="100px">
+              <img class="diploma-img" src="images/Copy of deloitte-1.svg" alt="" height="45px" width="80px">
+              <img class="diploma-img" src="images/Copy of infosys.svg" alt="">
+              <img class="diploma-img" src="images/Copy of flipkart.svg" alt="">
+              <img class="diploma-img" src="images/Copy of wipro.svg" alt="" height="46px">
+
+
+
+            </marquee>
+          </div>
+          <div>
+
+            <div class="row mt-3 syllabus">
+              <div class="col-7 col-lg-6 col-md-6">
+                <h3 class="mt-4 sy">Course Syllabus:</h3>
+                <div class="mt-5 px-2 ashu">
+                  <p class="coursep1"><span><svg xmlns="http://www.w3.org/2000/svg" width="36" height="28" color="blue"
+                        fill="currentColor" class="bi bi-cloud-check" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd"
+                          d="M10.354 6.146a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L7 8.793l2.646-2.647a.5.5 0 0 1 .708 0" />
+                        <path
+                          d="M4.406 3.342A5.53 5.53 0 0 1 8 2c2.69 0 4.923 2 5.166 4.579C14.758 6.804 16 8.137 16 9.773 16 11.569 14.502 13 12.687 13H3.781C1.708 13 0 11.366 0 9.318c0-1.763 1.266-3.223 2.942-3.593.143-.863.698-1.723 1.464-2.383m.653.757c-.757.653-1.153 1.44-1.153 2.056v.448l-.445.049C2.064 6.805 1 7.952 1 9.318 1 10.785 2.23 12 3.781 12h8.906C13.98 12 15 10.988 15 9.773c0-1.216-1.02-2.228-2.313-2.228h-.5v-.5C12.188 4.825 10.328 3 8 3a4.53 4.53 0 0 0-2.941 1.1z" />
+                      </svg></span> Excel</p>
+                  <p class="coursep"><span><svg xmlns="http://www.w3.org/2000/svg" width="36" height="28" color="blue"
+                        fill="currentColor" class="bi bi-cloud-check" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd"
+                          d="M10.354 6.146a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L7 8.793l2.646-2.647a.5.5 0 0 1 .708 0" />
+                        <path
+                          d="M4.406 3.342A5.53 5.53 0 0 1 8 2c2.69 0 4.923 2 5.166 4.579C14.758 6.804 16 8.137 16 9.773 16 11.569 14.502 13 12.687 13H3.781C1.708 13 0 11.366 0 9.318c0-1.763 1.266-3.223 2.942-3.593.143-.863.698-1.723 1.464-2.383m.653.757c-.757.653-1.153 1.44-1.153 2.056v.448l-.445.049C2.064 6.805 1 7.952 1 9.318 1 10.785 2.23 12 3.781 12h8.906C13.98 12 15 10.988 15 9.773c0-1.216-1.02-2.228-2.313-2.228h-.5v-.5C12.188 4.825 10.328 3 8 3a4.53 4.53 0 0 0-2.941 1.1z" />
+                      </svg></span> Pivot Table Dashbord</p>
+                  <p class="coursep"><span><svg xmlns="http://www.w3.org/2000/svg" width="36" height="28" color="blue"
+                        fill="currentColor" class="bi bi-cloud-check" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd"
+                          d="M10.354 6.146a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L7 8.793l2.646-2.647a.5.5 0 0 1 .708 0" />
+                        <path
+                          d="M4.406 3.342A5.53 5.53 0 0 1 8 2c2.69 0 4.923 2 5.166 4.579C14.758 6.804 16 8.137 16 9.773 16 11.569 14.502 13 12.687 13H3.781C1.708 13 0 11.366 0 9.318c0-1.763 1.266-3.223 2.942-3.593.143-.863.698-1.723 1.464-2.383m.653.757c-.757.653-1.153 1.44-1.153 2.056v.448l-.445.049C2.064 6.805 1 7.952 1 9.318 1 10.785 2.23 12 3.781 12h8.906C13.98 12 15 10.988 15 9.773c0-1.216-1.02-2.228-2.313-2.228h-.5v-.5C12.188 4.825 10.328 3 8 3a4.53 4.53 0 0 0-2.941 1.1z" />
+                      </svg></span> Tally Prime</p>
+                  <p class="coursep"><span><svg xmlns="http://www.w3.org/2000/svg" width="36" height="28" color="blue"
+                        fill="currentColor" class="bi bi-cloud-check" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd"
+                          d="M10.354 6.146a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L7 8.793l2.646-2.647a.5.5 0 0 1 .708 0" />
+                        <path
+                          d="M4.406 3.342A5.53 5.53 0 0 1 8 2c2.69 0 4.923 2 5.166 4.579C14.758 6.804 16 8.137 16 9.773 16 11.569 14.502 13 12.687 13H3.781C1.708 13 0 11.366 0 9.318c0-1.763 1.266-3.223 2.942-3.593.143-.863.698-1.723 1.464-2.383m.653.757c-.757.653-1.153 1.44-1.153 2.056v.448l-.445.049C2.064 6.805 1 7.952 1 9.318 1 10.785 2.23 12 3.781 12h8.906C13.98 12 15 10.988 15 9.773c0-1.216-1.02-2.228-2.313-2.228h-.5v-.5C12.188 4.825 10.328 3 8 3a4.53 4.53 0 0 0-2.941 1.1z" />
+                      </svg></span> MS Office</p>
+                  <p class="coursep"><span><svg xmlns="http://www.w3.org/2000/svg" width="36" height="28" color="blue"
+                        fill="currentColor" class="bi bi-cloud-check" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd"
+                          d="M10.354 6.146a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L7 8.793l2.646-2.647a.5.5 0 0 1 .708 0" />
+                        <path
+                          d="M4.406 3.342A5.53 5.53 0 0 1 8 2c2.69 0 4.923 2 5.166 4.579C14.758 6.804 16 8.137 16 9.773 16 11.569 14.502 13 12.687 13H3.781C1.708 13 0 11.366 0 9.318c0-1.763 1.266-3.223 2.942-3.593.143-.863.698-1.723 1.464-2.383m.653.757c-.757.653-1.153 1.44-1.153 2.056v.448l-.445.049C2.064 6.805 1 7.952 1 9.318 1 10.785 2.23 12 3.781 12h8.906C13.98 12 15 10.988 15 9.773c0-1.216-1.02-2.228-2.313-2.228h-.5v-.5C12.188 4.825 10.328 3 8 3a4.53 4.53 0 0 0-2.941 1.1z" />
+                      </svg></span> Resume Making</p>
+                  <p class="coursep"><span><svg xmlns="http://www.w3.org/2000/svg" width="36" height="28" color="blue"
+                        fill="currentColor" class="bi bi-cloud-check" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd"
+                          d="M10.354 6.146a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L7 8.793l2.646-2.647a.5.5 0 0 1 .708 0" />
+                        <path
+                          d="M4.406 3.342A5.53 5.53 0 0 1 8 2c2.69 0 4.923 2 5.166 4.579C14.758 6.804 16 8.137 16 9.773 16 11.569 14.502 13 12.687 13H3.781C1.708 13 0 11.366 0 9.318c0-1.763 1.266-3.223 2.942-3.593.143-.863.698-1.723 1.464-2.383m.653.757c-.757.653-1.153 1.44-1.153 2.056v.448l-.445.049C2.064 6.805 1 7.952 1 9.318 1 10.785 2.23 12 3.781 12h8.906C13.98 12 15 10.988 15 9.773c0-1.216-1.02-2.228-2.313-2.228h-.5v-.5C12.188 4.825 10.328 3 8 3a4.53 4.53 0 0 0-2.941 1.1z" />
+                      </svg></span> Interview Preparation</p>
+                </div>
+              </div>
+
+              <div class="col-5 col-lg-6 col-md-6 mb-5">
+                <div class="mt-3">
+                  <button class="btn btn dbtn">Download Syllabus</button>
+                </div>
+                <div id="gg">
+                  <p class="coursep"><span><svg xmlns="http://www.w3.org/2000/svg" width="36" height="28" color="blue"
+                        fill="currentColor" class="bi bi-cloud-check" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd"
+                          d="M10.354 6.146a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L7 8.793l2.646-2.647a.5.5 0 0 1 .708 0" />
+                        <path
+                          d="M4.406 3.342A5.53 5.53 0 0 1 8 2c2.69 0 4.923 2 5.166 4.579C14.758 6.804 16 8.137 16 9.773 16 11.569 14.502 13 12.687 13H3.781C1.708 13 0 11.366 0 9.318c0-1.763 1.266-3.223 2.942-3.593.143-.863.698-1.723 1.464-2.383m.653.757c-.757.653-1.153 1.44-1.153 2.056v.448l-.445.049C2.064 6.805 1 7.952 1 9.318 1 10.785 2.23 12 3.781 12h8.906C13.98 12 15 10.988 15 9.773c0-1.216-1.02-2.228-2.313-2.228h-.5v-.5C12.188 4.825 10.328 3 8 3a4.53 4.53 0 0 0-2.941 1.1z" />
+                      </svg></span> MIS</p>
+                  <p class="coursep"><span><svg xmlns="http://www.w3.org/2000/svg" width="36" height="28" color="blue"
+                        fill="currentColor" class="bi bi-cloud-check" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd"
+                          d="M10.354 6.146a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L7 8.793l2.646-2.647a.5.5 0 0 1 .708 0" />
+                        <path
+                          d="M4.406 3.342A5.53 5.53 0 0 1 8 2c2.69 0 4.923 2 5.166 4.579C14.758 6.804 16 8.137 16 9.773 16 11.569 14.502 13 12.687 13H3.781C1.708 13 0 11.366 0 9.318c0-1.763 1.266-3.223 2.942-3.593.143-.863.698-1.723 1.464-2.383m.653.757c-.757.653-1.153 1.44-1.153 2.056v.448l-.445.049C2.064 6.805 1 7.952 1 9.318 1 10.785 2.23 12 3.781 12h8.906C13.98 12 15 10.988 15 9.773c0-1.216-1.02-2.228-2.313-2.228h-.5v-.5C12.188 4.825 10.328 3 8 3a4.53 4.53 0 0 0-2.941 1.1z" />
+                      </svg></span> Tally.ERP9</p>
+                  <p class="coursep"><span><svg xmlns="http://www.w3.org/2000/svg" width="36" height="28" color="blue"
+                        fill="currentColor" class="bi bi-cloud-check" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd"
+                          d="M10.354 6.146a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L7 8.793l2.646-2.647a.5.5 0 0 1 .708 0" />
+                        <path
+                          d="M4.406 3.342A5.53 5.53 0 0 1 8 2c2.69 0 4.923 2 5.166 4.579C14.758 6.804 16 8.137 16 9.773 16 11.569 14.502 13 12.687 13H3.781C1.708 13 0 11.366 0 9.318c0-1.763 1.266-3.223 2.942-3.593.143-.863.698-1.723 1.464-2.383m.653.757c-.757.653-1.153 1.44-1.153 2.056v.448l-.445.049C2.064 6.805 1 7.952 1 9.318 1 10.785 2.23 12 3.781 12h8.906C13.98 12 15 10.988 15 9.773c0-1.216-1.02-2.228-2.313-2.228h-.5v-.5C12.188 4.825 10.328 3 8 3a4.53 4.53 0 0 0-2.941 1.1z" />
+                      </svg></span> GST</p>
+                  <p class="coursep"><span><svg xmlns="http://www.w3.org/2000/svg" width="36" height="28" color="blue"
+                        fill="currentColor" class="bi bi-cloud-check" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd"
+                          d="M10.354 6.146a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L7 8.793l2.646-2.647a.5.5 0 0 1 .708 0" />
+                        <path
+                          d="M4.406 3.342A5.53 5.53 0 0 1 8 2c2.69 0 4.923 2 5.166 4.579C14.758 6.804 16 8.137 16 9.773 16 11.569 14.502 13 12.687 13H3.781C1.708 13 0 11.366 0 9.318c0-1.763 1.266-3.223 2.942-3.593.143-.863.698-1.723 1.464-2.383m.653.757c-.757.653-1.153 1.44-1.153 2.056v.448l-.445.049C2.064 6.805 1 7.952 1 9.318 1 10.785 2.23 12 3.781 12h8.906C13.98 12 15 10.988 15 9.773c0-1.216-1.02-2.228-2.313-2.228h-.5v-.5C12.188 4.825 10.328 3 8 3a4.53 4.53 0 0 0-2.941 1.1z" />
+                      </svg></span> MS Word</p>
+                  <p class="coursep"><span><svg xmlns="http://www.w3.org/2000/svg" width="36" height="28" color="blue"
+                        fill="currentColor" class="bi bi-cloud-check" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd"
+                          d="M10.354 6.146a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L7 8.793l2.646-2.647a.5.5 0 0 1 .708 0" />
+                        <path
+                          d="M4.406 3.342A5.53 5.53 0 0 1 8 2c2.69 0 4.923 2 5.166 4.579C14.758 6.804 16 8.137 16 9.773 16 11.569 14.502 13 12.687 13H3.781C1.708 13 0 11.366 0 9.318c0-1.763 1.266-3.223 2.942-3.593.143-.863.698-1.723 1.464-2.383m.653.757c-.757.653-1.153 1.44-1.153 2.056v.448l-.445.049C2.064 6.805 1 7.952 1 9.318 1 10.785 2.23 12 3.781 12h8.906C13.98 12 15 10.988 15 9.773c0-1.216-1.02-2.228-2.313-2.228h-.5v-.5C12.188 4.825 10.328 3 8 3a4.53 4.53 0 0 0-2.941 1.1z" />
+                      </svg></span> MS PowerPoint</p>
+                  <p class="coursep"><span><svg xmlns="http://www.w3.org/2000/svg" width="33" height="28" color="blue"
+                        fill="currentColor" class="bi bi-cloud-check" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd"
+                          d="M10.354 6.146a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L7 8.793l2.646-2.647a.5.5 0 0 1 .708 0" />
+                        <path
+                          d="M4.406 3.342A5.53 5.53 0 0 1 8 2c2.69 0 4.923 2 5.166 4.579C14.758 6.804 16 8.137 16 9.773 16 11.569 14.502 13 12.687 13H3.781C1.708 13 0 11.366 0 9.318c0-1.763 1.266-3.223 2.942-3.593.143-.863.698-1.723 1.464-2.383m.653.757c-.757.653-1.153 1.44-1.153 2.056v.448l-.445.049C2.064 6.805 1 7.952 1 9.318 1 10.785 2.23 12 3.781 12h8.906C13.98 12 15 10.988 15 9.773c0-1.216-1.02-2.228-2.313-2.228h-.5v-.5C12.188 4.825 10.328 3 8 3a4.53 4.53 0 0 0-2.941 1.1z" />
+                      </svg></span> Digital Marketing</p>
+                </div>
+              </div>
+              <div class="row justify-content-center mt-2 mb-3">
+                <div class="text-center">
+                  <h3 class="book-demo">Book
+                    Demo:</h3>
+                </div>
+                <div class="col-5 col-lg-3 mt-2">
+                  <button class="btn btn dbtn2">Offline classes</button>
+                </div>
+                <div class="col-5 col-lg-4 mt-2">
+                  <button class="btn btn dbtn2">Online classes</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row justify-content-center mt-5 gap-3">
+          <div class="text-start px-5 gap-5 diploma-st-project">
+            <h3 class="diploma-project-h3">Student Projects:</h3>
+            <button class="btn btn-primary">view more project</button>
+          </div>
+
+          <div class="col-6 col-lg-4 col-md-6 mt-3 mb-5 project">
+            <div class="bro">
+              <img class="img-fluid bro1" src="images/book.avif" alt="">
+              <p>Student Name: Anuj</p>
+              <p>Website: United</p>
+              <p>Github: Link</p>
+              <div class="row">
+                <div class="col-5 col-lg-6 mt-2">
+                  <button class="btn btn dbtn3">Offline classes</button>
+                </div>
+                <div class="col-5 col-lg-6 mt-2 mb-2">
+                  <button class="btn btn dbtn3">Online classes</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 col-lg-4 col-md-6 mt-3 mb-5 project">
+            <div class="bro">
+              <img class="img-fluid bro1" src="images/book.avif" alt="">
+              <p>Student Name: Anuj</p>
+              <p>Website: United</p>
+              <p>Github: Link</p>
+              <div class="row">
+                <div class="col-5 col-lg-6 mt-2">
+                  <button class="btn btn dbtn3">Offline classes</button>
+                </div>
+                <div class="col-5 col-lg-6 mt-2 mb-2">
+                  <button class="btn btn dbtn3">Online classes</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 col-lg-4 col-md-4 mt-3 mb-5 project">
+            <div class="bro">
+              <img class="img-fluid bro1" src="images/book.avif" alt="">
+              <p>Student Name: Anuj</p>
+              <p>Website: United</p>
+              <p>Github: Link</p>
+              <div class="row">
+                <div class="col-5 col-lg-6 mt-2">
+                  <button class="btn btn dbtn3">Offline classes</button>
+                </div>
+                <div class="col-5 col-lg-6 mt-2 mb-2">
+                  <button class="btn btn dbtn3">Online classes</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div id="carouselExampleControls" class="carousel slide  kt" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+
+
+                <div class="project2 mb-3">
+                  <img class="img-fluid projectimg" src="images/book.avif" alt="">
+                  <p>Student Name: Anuj</p>
+                  <p>Website: United</p>
+                  <p>Github: Link</p>
+                  <div class="row">
+                    <div class="col-5 col-lg-6 mt-2">
+                      <button class="btn btn dbtn2">Offline classes</button>
+                    </div>
+                    <div class="col-5 col-lg-6 mt-2 mb-2">
+                      <button class="btn btn dbtn2">Online classes</button>
+                    </div>
+                  </div>
+                </div>
+
+
+              </div>
+              <div class="carousel-item">
+
+                <div class="project2 mb-3">
+                  <img class="img-fluid projectimg" src="images/book.avif" alt="">
+                  <p>Student Name: Anuj</p>
+                  <p>Website: United</p>
+                  <p>Github: Link</p>
+                  <div class="row">
+                    <div class="col-5 col-lg-6 mt-2">
+                      <button class="btn btn dbtn2">Offline classes</button>
+                    </div>
+                    <div class="col-5 col-lg-6 mt-2 mb-2">
+                      <button class="btn btn dbtn2">Online classes</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+
+                <div class="project2 mb-3">
+                  <img class="img-fluid projectimg" src="images/book.avif" alt="">
+                  <p>Student Name: Anuj</p>
+                  <p>Website: United</p>
+                  <p>Github: Link</p>
+                  <div class="row">
+                    <div class="col-5 col-lg-6 mt-2">
+                      <button class="btn btn dbtn2">Offline classes</button>
+                    </div>
+                    <div class="col-5 col-lg-6 mt-2 mb-2">
+                      <button class="btn btn dbtn2">Online classes</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <button class="carousel-control-prev mt-3" type="button" data-bs-target="#carouselExampleControls"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon " color="red" aria-hidden="true"></span>
+                <span class="visually-hidden ">Previous</span>
+              </button>
+              <button class="carousel-control-next mt-3" type="button" data-bs-target="#carouselExampleControls"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+
+          </div>
+
+        </div>
+  </section>
+  <!-- our diploma courses end -->
+
+
+  <!-- course benefits -->
+
   <div class="container mt-5">
-    <div class="row">
-      <div class="text-center mb-4 mt-5">
-        <h2 style="font-weight: bold;">Explore Our Diploma Courses</h2>
+    <div class="row benefit-div">
+      <div class="col-12 col-lg-5 col-md-6 mt-4">
+        <img class="img-fluid" src="images/Untitled-1.png" alt="">
       </div>
-      <div class="col-12 col-lg-5 col-md-5 mt-5">
-        <div style="display: flex; gap: 20px;">
-          <button class="btn btn-light diploma-btn">E Accounting</button>
-          <button class="btn btn-light diploma-btn">Web Development </button>
+      <div class="col-12 col-lg-5 col-md-6 mt-5" id="course-benefit">
+        <h3 class="course-h3">Course Benefits</h3>
+        <ul class="mt-3">
+          <li class="li"><span class="li2">Real World Practical Approach in the Project</span></li>
+          <li class="li"><span class="li2">Real World Practical Approach in the Project</span></li>
+          <li class="li"><span class="li2">Real World Practical Approach in the Project</span></li>
+          <li class="li"><span class="li2">Real World Practical Approach in the Project</span></li>
+          <li class="li"><span class="li2">Real World Practical Approach in the Project</span></li>
+          <li class="li"><span class="li2">Real World Practical Approach in the Project</span></li>
+          <li class="li"><span class="li2">Real World Practical Approach in the Project</span></li>
+          <li class="li"><span class="li2">Real World Practical Approach in the Project</span></li>
+
+        </ul>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- course benefits end -->
+
+
+  <div class="container-fluid mt-5 about-div">
+    <div class="container">
+      <div class="row">
+        <div class=" col-6 col-lg-6 col-md-6">
+          <div >
+            <img id="sir-img" class="mt-5 mb-5 img-fluid" src="images/passport (1) 1 (2).png" alt="">
+          </div>
+        </div>
+        <div class="col-6 col-lg-6 col-md-6">
+         <div class="mt-5">
+          <h3 class="abouth3">About-Us</h3>
+          <p class="aboutp">United Tech Era is a starting mark for future-ready brains, not only a<br>
+            facility. Driven by creativity, our areas of expertise are providing highly<br>
+            valuable courses in E-Accounting, Graphic Designing, Web Development,<br>
+             Digital Marketing, UI/UX, and more.</p>
+             <p class="aboutp">Our tech-first approach guarantees students evolve rather than basically<br>
+              learn by combining real-world applications with smart learning. From<br>
+              learning the reasoning behind code and business to developing industry<br>
+              tools like Tally, Photoshop, and JS, we create creators, coders, and change-<br> makers.</p>
+              <p class="aboutp">United Tech Era: where your skill aligns with the technology of tomorrow.</p>
+         </div>
         </div>
       </div>
-      <div class="col-12 col-lg-5 col-md-5 mt-5">
-        <div style="display: flex; gap: 20px;">
-          <button class="btn btn-light diploma-btn">Graphic Designing</button>
-          <button class="btn btn-light diploma-btn">Animation & Editing</button>
+    </div>
+  </div>
+
+
+  <div class="container-fluid story-main">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-12 col-lg-4 col-md-4 mt-5 mb-5">
+         <div class="story-div">
+          <img class="story-img1" src="images/Our Story In Stats-green.png" alt="" width="288px" height=139px>
+          <h3 class="story-h3-1">Tought<br>1k+<br>Students</h3>
+         </div>
+         <div class="mt-5 story-div">
+          <img class="story-img1" src="images/Our Story In Stats-green.png" alt="" width="288px" height=139px>
+          <h3 class="story-h3-2">9+ Years<br>experience</h3>
+         </div>
         </div>
-      </div>
-      <div class="col-12 col-lg-2 col-md-2 mt-5 mb-2">
-        <div class="diploma-btn-div">
-          <button class="btn btn-light" id="diploma-btn2">UI/UX Designing</button>
+        <div class="col-12 col-lg-4 col-md-4 mt-5">
+         <div class="story-div">
+          <img class="story-img2" src="images/Our Story In Stats-green.png" alt="" width="588px" height=339px>
+          <h3 class="story-h3-3">900+<br>Reviews<br>on google map</h3>
+          <p class="story-p">Empowering futures through skilled<br>students trained by our EdTech expertise</p>
+         </div>
         </div>
       </div>
     </div>
@@ -389,283 +734,6 @@
 
 
 
-  <div class="container mt-5" style="border: 1px solid black; border-radius: 30px;">
-    <div class="row">
-      <div class="text-center mt-5 mb-5">
-        <h2>E Accounting Diploma Course</h2>
-      </div>
-
-      <div class="col-12 col-lg-5 col-md-5 px-5">
-        <h3>Job opportunities:</h3>
-        <img class="img-fluid mb-5 mt-5" id="diploma-img" src="images/excel-removebg-preview.png" alt="" >
-      </div>
-
-      <div class="col-12 col-lg-7 col-md-7" id="hh">
-        <div class="row gap-5">
-          <h5>Top place to hire</h5>
-          <marquee behavior="scroll" class="mt-1"  direction="right" scrollamount="12" loop="infinite">
-          
-            <img style="margin-bottom: 12px; margin-right: 15px;" src="images/accenture.png" alt="">
-            <img style="margin-right: 15px;" src="images/Copy of paytm.svg" alt="">
-            <img style="margin-top: 10px; margin-right: 15px;" src="images/Copy of amazon.svg" alt="">
-            <img style="margin-right: 15px;" src="images/Copy of tata-consultancy-services.svg" alt="" width="100px">
-            <img style="margin-right: 15px;" src="images/Copy of deloitte-1.svg" alt="" height="45px" width="80px">
-            <img style="margin-right: 15px;"  src="images/Copy of infosys.svg" alt="">
-            <img style="margin-right: 15px;" src="images/Copy of flipkart.svg" alt="">
-             <img style="margin-right: 15px;" src="images/Copy of wipro.svg" alt="" height="46px">
-         
-        
-      
-          </marquee>
-        </div>
-        <div>
-
-          <div class="row mt-3 syllabus">
-            <div class="col-7 col-lg-6 col-md-6">
-              <h3 class="mt-4 sy">Course Syllabus:</h3>
-              <div class="mt-5 px-2 ashu">
-                <p class="coursep1"><span><svg xmlns="http://www.w3.org/2000/svg" width="36" height="28" color="blue"
-                      fill="currentColor" class="bi bi-cloud-check" viewBox="0 0 16 16">
-                      <path fill-rule="evenodd"
-                        d="M10.354 6.146a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L7 8.793l2.646-2.647a.5.5 0 0 1 .708 0" />
-                      <path
-                        d="M4.406 3.342A5.53 5.53 0 0 1 8 2c2.69 0 4.923 2 5.166 4.579C14.758 6.804 16 8.137 16 9.773 16 11.569 14.502 13 12.687 13H3.781C1.708 13 0 11.366 0 9.318c0-1.763 1.266-3.223 2.942-3.593.143-.863.698-1.723 1.464-2.383m.653.757c-.757.653-1.153 1.44-1.153 2.056v.448l-.445.049C2.064 6.805 1 7.952 1 9.318 1 10.785 2.23 12 3.781 12h8.906C13.98 12 15 10.988 15 9.773c0-1.216-1.02-2.228-2.313-2.228h-.5v-.5C12.188 4.825 10.328 3 8 3a4.53 4.53 0 0 0-2.941 1.1z" />
-                    </svg></span>                                Excel</p>
-                <p class="coursep"><span><svg xmlns="http://www.w3.org/2000/svg" width="36" height="28" color="blue"
-                      fill="currentColor" class="bi bi-cloud-check" viewBox="0 0 16 16">
-                      <path fill-rule="evenodd"
-                        d="M10.354 6.146a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L7 8.793l2.646-2.647a.5.5 0 0 1 .708 0" />
-                      <path
-                        d="M4.406 3.342A5.53 5.53 0 0 1 8 2c2.69 0 4.923 2 5.166 4.579C14.758 6.804 16 8.137 16 9.773 16 11.569 14.502 13 12.687 13H3.781C1.708 13 0 11.366 0 9.318c0-1.763 1.266-3.223 2.942-3.593.143-.863.698-1.723 1.464-2.383m.653.757c-.757.653-1.153 1.44-1.153 2.056v.448l-.445.049C2.064 6.805 1 7.952 1 9.318 1 10.785 2.23 12 3.781 12h8.906C13.98 12 15 10.988 15 9.773c0-1.216-1.02-2.228-2.313-2.228h-.5v-.5C12.188 4.825 10.328 3 8 3a4.53 4.53 0 0 0-2.941 1.1z" />
-                    </svg></span> Pivot Table Dashbord</p>
-                <p class="coursep"><span><svg xmlns="http://www.w3.org/2000/svg" width="36" height="28" color="blue"
-                      fill="currentColor" class="bi bi-cloud-check" viewBox="0 0 16 16">
-                      <path fill-rule="evenodd"
-                        d="M10.354 6.146a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L7 8.793l2.646-2.647a.5.5 0 0 1 .708 0" />
-                      <path
-                        d="M4.406 3.342A5.53 5.53 0 0 1 8 2c2.69 0 4.923 2 5.166 4.579C14.758 6.804 16 8.137 16 9.773 16 11.569 14.502 13 12.687 13H3.781C1.708 13 0 11.366 0 9.318c0-1.763 1.266-3.223 2.942-3.593.143-.863.698-1.723 1.464-2.383m.653.757c-.757.653-1.153 1.44-1.153 2.056v.448l-.445.049C2.064 6.805 1 7.952 1 9.318 1 10.785 2.23 12 3.781 12h8.906C13.98 12 15 10.988 15 9.773c0-1.216-1.02-2.228-2.313-2.228h-.5v-.5C12.188 4.825 10.328 3 8 3a4.53 4.53 0 0 0-2.941 1.1z" />
-                    </svg></span> Tally Prime</p>
-                <p class="coursep"><span><svg xmlns="http://www.w3.org/2000/svg" width="36" height="28" color="blue"
-                      fill="currentColor" class="bi bi-cloud-check" viewBox="0 0 16 16">
-                      <path fill-rule="evenodd"
-                        d="M10.354 6.146a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L7 8.793l2.646-2.647a.5.5 0 0 1 .708 0" />
-                      <path
-                        d="M4.406 3.342A5.53 5.53 0 0 1 8 2c2.69 0 4.923 2 5.166 4.579C14.758 6.804 16 8.137 16 9.773 16 11.569 14.502 13 12.687 13H3.781C1.708 13 0 11.366 0 9.318c0-1.763 1.266-3.223 2.942-3.593.143-.863.698-1.723 1.464-2.383m.653.757c-.757.653-1.153 1.44-1.153 2.056v.448l-.445.049C2.064 6.805 1 7.952 1 9.318 1 10.785 2.23 12 3.781 12h8.906C13.98 12 15 10.988 15 9.773c0-1.216-1.02-2.228-2.313-2.228h-.5v-.5C12.188 4.825 10.328 3 8 3a4.53 4.53 0 0 0-2.941 1.1z" />
-                    </svg></span> MS Office</p>
-                <p class="coursep"><span><svg xmlns="http://www.w3.org/2000/svg" width="36" height="28" color="blue"
-                      fill="currentColor" class="bi bi-cloud-check" viewBox="0 0 16 16">
-                      <path fill-rule="evenodd"
-                        d="M10.354 6.146a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L7 8.793l2.646-2.647a.5.5 0 0 1 .708 0" />
-                      <path
-                        d="M4.406 3.342A5.53 5.53 0 0 1 8 2c2.69 0 4.923 2 5.166 4.579C14.758 6.804 16 8.137 16 9.773 16 11.569 14.502 13 12.687 13H3.781C1.708 13 0 11.366 0 9.318c0-1.763 1.266-3.223 2.942-3.593.143-.863.698-1.723 1.464-2.383m.653.757c-.757.653-1.153 1.44-1.153 2.056v.448l-.445.049C2.064 6.805 1 7.952 1 9.318 1 10.785 2.23 12 3.781 12h8.906C13.98 12 15 10.988 15 9.773c0-1.216-1.02-2.228-2.313-2.228h-.5v-.5C12.188 4.825 10.328 3 8 3a4.53 4.53 0 0 0-2.941 1.1z" />
-                    </svg></span>  Resume Making</p>
-                <p class="coursep"><span><svg xmlns="http://www.w3.org/2000/svg" width="36" height="28" color="blue"
-                      fill="currentColor" class="bi bi-cloud-check" viewBox="0 0 16 16">
-                      <path fill-rule="evenodd"
-                        d="M10.354 6.146a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L7 8.793l2.646-2.647a.5.5 0 0 1 .708 0" />
-                      <path
-                        d="M4.406 3.342A5.53 5.53 0 0 1 8 2c2.69 0 4.923 2 5.166 4.579C14.758 6.804 16 8.137 16 9.773 16 11.569 14.502 13 12.687 13H3.781C1.708 13 0 11.366 0 9.318c0-1.763 1.266-3.223 2.942-3.593.143-.863.698-1.723 1.464-2.383m.653.757c-.757.653-1.153 1.44-1.153 2.056v.448l-.445.049C2.064 6.805 1 7.952 1 9.318 1 10.785 2.23 12 3.781 12h8.906C13.98 12 15 10.988 15 9.773c0-1.216-1.02-2.228-2.313-2.228h-.5v-.5C12.188 4.825 10.328 3 8 3a4.53 4.53 0 0 0-2.941 1.1z" />
-                    </svg></span>  Interview Preparation</p>
-              </div>
-            </div>
-
-            <div class="col-5 col-lg-6 col-md-6 mb-5">
-              <div class="mt-3">
-                <button class="btn btn dbtn">Download Syllabus</button>
-              </div>
-              <div id="gg">
-                <p class="coursep"><span><svg xmlns="http://www.w3.org/2000/svg" width="36" height="28" color="blue"
-                      fill="currentColor" class="bi bi-cloud-check" viewBox="0 0 16 16">
-                      <path fill-rule="evenodd"
-                        d="M10.354 6.146a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L7 8.793l2.646-2.647a.5.5 0 0 1 .708 0" />
-                      <path
-                        d="M4.406 3.342A5.53 5.53 0 0 1 8 2c2.69 0 4.923 2 5.166 4.579C14.758 6.804 16 8.137 16 9.773 16 11.569 14.502 13 12.687 13H3.781C1.708 13 0 11.366 0 9.318c0-1.763 1.266-3.223 2.942-3.593.143-.863.698-1.723 1.464-2.383m.653.757c-.757.653-1.153 1.44-1.153 2.056v.448l-.445.049C2.064 6.805 1 7.952 1 9.318 1 10.785 2.23 12 3.781 12h8.906C13.98 12 15 10.988 15 9.773c0-1.216-1.02-2.228-2.313-2.228h-.5v-.5C12.188 4.825 10.328 3 8 3a4.53 4.53 0 0 0-2.941 1.1z" />
-                    </svg></span> MIS</p>
-                <p class="coursep"><span><svg xmlns="http://www.w3.org/2000/svg" width="36" height="28" color="blue"
-                      fill="currentColor" class="bi bi-cloud-check" viewBox="0 0 16 16">
-                      <path fill-rule="evenodd"
-                        d="M10.354 6.146a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L7 8.793l2.646-2.647a.5.5 0 0 1 .708 0" />
-                      <path
-                        d="M4.406 3.342A5.53 5.53 0 0 1 8 2c2.69 0 4.923 2 5.166 4.579C14.758 6.804 16 8.137 16 9.773 16 11.569 14.502 13 12.687 13H3.781C1.708 13 0 11.366 0 9.318c0-1.763 1.266-3.223 2.942-3.593.143-.863.698-1.723 1.464-2.383m.653.757c-.757.653-1.153 1.44-1.153 2.056v.448l-.445.049C2.064 6.805 1 7.952 1 9.318 1 10.785 2.23 12 3.781 12h8.906C13.98 12 15 10.988 15 9.773c0-1.216-1.02-2.228-2.313-2.228h-.5v-.5C12.188 4.825 10.328 3 8 3a4.53 4.53 0 0 0-2.941 1.1z" />
-                    </svg></span>  Tally.ERP9</p>
-                <p class="coursep"><span><svg xmlns="http://www.w3.org/2000/svg" width="36" height="28" color="blue"
-                      fill="currentColor" class="bi bi-cloud-check" viewBox="0 0 16 16">
-                      <path fill-rule="evenodd"
-                        d="M10.354 6.146a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L7 8.793l2.646-2.647a.5.5 0 0 1 .708 0" />
-                      <path
-                        d="M4.406 3.342A5.53 5.53 0 0 1 8 2c2.69 0 4.923 2 5.166 4.579C14.758 6.804 16 8.137 16 9.773 16 11.569 14.502 13 12.687 13H3.781C1.708 13 0 11.366 0 9.318c0-1.763 1.266-3.223 2.942-3.593.143-.863.698-1.723 1.464-2.383m.653.757c-.757.653-1.153 1.44-1.153 2.056v.448l-.445.049C2.064 6.805 1 7.952 1 9.318 1 10.785 2.23 12 3.781 12h8.906C13.98 12 15 10.988 15 9.773c0-1.216-1.02-2.228-2.313-2.228h-.5v-.5C12.188 4.825 10.328 3 8 3a4.53 4.53 0 0 0-2.941 1.1z" />
-                    </svg></span>  GST</p>
-                <p class="coursep"><span><svg xmlns="http://www.w3.org/2000/svg" width="36" height="28" color="blue"
-                      fill="currentColor" class="bi bi-cloud-check" viewBox="0 0 16 16">
-                      <path fill-rule="evenodd"
-                        d="M10.354 6.146a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L7 8.793l2.646-2.647a.5.5 0 0 1 .708 0" />
-                      <path
-                        d="M4.406 3.342A5.53 5.53 0 0 1 8 2c2.69 0 4.923 2 5.166 4.579C14.758 6.804 16 8.137 16 9.773 16 11.569 14.502 13 12.687 13H3.781C1.708 13 0 11.366 0 9.318c0-1.763 1.266-3.223 2.942-3.593.143-.863.698-1.723 1.464-2.383m.653.757c-.757.653-1.153 1.44-1.153 2.056v.448l-.445.049C2.064 6.805 1 7.952 1 9.318 1 10.785 2.23 12 3.781 12h8.906C13.98 12 15 10.988 15 9.773c0-1.216-1.02-2.228-2.313-2.228h-.5v-.5C12.188 4.825 10.328 3 8 3a4.53 4.53 0 0 0-2.941 1.1z" />
-                    </svg></span>  MS Word</p>
-                <p class="coursep"><span><svg xmlns="http://www.w3.org/2000/svg" width="36" height="28" color="blue"
-                      fill="currentColor" class="bi bi-cloud-check" viewBox="0 0 16 16">
-                      <path fill-rule="evenodd"
-                        d="M10.354 6.146a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L7 8.793l2.646-2.647a.5.5 0 0 1 .708 0" />
-                      <path
-                        d="M4.406 3.342A5.53 5.53 0 0 1 8 2c2.69 0 4.923 2 5.166 4.579C14.758 6.804 16 8.137 16 9.773 16 11.569 14.502 13 12.687 13H3.781C1.708 13 0 11.366 0 9.318c0-1.763 1.266-3.223 2.942-3.593.143-.863.698-1.723 1.464-2.383m.653.757c-.757.653-1.153 1.44-1.153 2.056v.448l-.445.049C2.064 6.805 1 7.952 1 9.318 1 10.785 2.23 12 3.781 12h8.906C13.98 12 15 10.988 15 9.773c0-1.216-1.02-2.228-2.313-2.228h-.5v-.5C12.188 4.825 10.328 3 8 3a4.53 4.53 0 0 0-2.941 1.1z" />
-                    </svg></span> MS PowerPoint</p>
-                <p class="coursep"><span><svg xmlns="http://www.w3.org/2000/svg" width="33" height="28" color="blue"
-                      fill="currentColor" class="bi bi-cloud-check" viewBox="0 0 16 16">
-                      <path fill-rule="evenodd"
-                        d="M10.354 6.146a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L7 8.793l2.646-2.647a.5.5 0 0 1 .708 0" />
-                      <path
-                        d="M4.406 3.342A5.53 5.53 0 0 1 8 2c2.69 0 4.923 2 5.166 4.579C14.758 6.804 16 8.137 16 9.773 16 11.569 14.502 13 12.687 13H3.781C1.708 13 0 11.366 0 9.318c0-1.763 1.266-3.223 2.942-3.593.143-.863.698-1.723 1.464-2.383m.653.757c-.757.653-1.153 1.44-1.153 2.056v.448l-.445.049C2.064 6.805 1 7.952 1 9.318 1 10.785 2.23 12 3.781 12h8.906C13.98 12 15 10.988 15 9.773c0-1.216-1.02-2.228-2.313-2.228h-.5v-.5C12.188 4.825 10.328 3 8 3a4.53 4.53 0 0 0-2.941 1.1z" />
-                    </svg></span>  Digital Marketing</p>
-              </div>
-            </div>
-            <div class="row justify-content-center mt-2 mb-3">
-              <div class="text-center">
-                <h3 style="font-family:  Verdana, Geneva, Tahoma, sans-serif; font-size: 30px; font-weight: 300;">Book
-                  Demo:</h3>
-              </div>
-              <div class="col-5 col-lg-3 mt-2">
-                <button class="btn btn dbtn2">Offline classes</button>
-              </div>
-              <div class="col-5 col-lg-4 mt-2">
-                <button class="btn btn dbtn2">Online classes</button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="row justify-content-center mt-5 gap-3">
-        <div class="text-start px-5 gap-5" style="display: flex;">
-          <h3 style="margin: 0px 30px">Student Projects:</h3>
-          <button class="btn btn-primary">view more project</button>
-        </div>
-      
-       <div class="col-6 col-lg-4 col-md-6 mt-3 project" >
-        <div class="bro">
-          <img  class="img-fluid bro1" src="images/book.avif" alt="">
-          <p>Student Name: Anuj</p>
-          <p>Website: United</p>
-          <p>Github: Link</p>
-          <div class="row">
-            <div class="col-5 col-lg-6 mt-2">
-              <button class="btn btn dbtn3">Offline classes</button>
-            </div>
-            <div class="col-5 col-lg-6 mt-2 mb-2">
-              <button class="btn btn dbtn3">Online classes</button>
-            </div>
-          </div>
-        </div>     
-      </div>
-      <div class="col-6 col-lg-4 col-md-6 mt-3 project" >
-        <div class="bro">
-          <img  class="img-fluid bro1" src="images/book.avif" alt="">
-          <p>Student Name: Anuj</p>
-          <p>Website: United</p>
-          <p>Github: Link</p>
-          <div class="row">
-            <div class="col-5 col-lg-6 mt-2">
-              <button class="btn btn dbtn3">Offline classes</button>
-            </div>
-            <div class="col-5 col-lg-6 mt-2 mb-2">
-              <button class="btn btn dbtn3">Online classes</button>
-            </div>
-          </div>
-        </div>     
-      </div>
-      <div class="col-6 col-lg-4 col-md-4 mt-3 project">
-        <div class="bro">
-          <img  class="img-fluid bro1" src="images/book.avif" alt="">
-          <p>Student Name: Anuj</p>
-          <p>Website: United</p>
-          <p>Github: Link</p>
-          <div class="row">
-            <div class="col-5 col-lg-6 mt-2">
-              <button class="btn btn dbtn3">Offline classes</button>
-            </div>
-            <div class="col-5 col-lg-6 mt-2 mb-2">
-              <button class="btn btn dbtn3">Online classes</button>
-            </div>
-          </div>
-        </div>    
-      </div> 
-      <div id="carouselExampleControls" class="carousel slide  kt" data-bs-ride="carousel" >
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-           
-            
-              <div class="project2">
-                <img  class="img-fluid projectimg" src="images/book.avif" alt="">
-                <p>Student Name: Anuj</p>
-                <p>Website: United</p>
-                <p>Github: Link</p>
-                <div class="row" style="justify-content: space-evenly;">
-                  <div class="col-5 col-lg-6 mt-2">
-                    <button class="btn btn dbtn3">Offline classes</button>
-                  </div>
-                  <div class="col-5 col-lg-6 mt-2 mb-2">
-                    <button class="btn btn dbtn3">Online classes</button>
-                  </div>
-                </div>
-              </div>     
-            
-            
-          </div>
-          <div class="carousel-item">
-           
-            <div class="project2">
-              <img  class="img-fluid projectimg" src="images/book.avif" alt="">
-              <p>Student Name: Anuj</p>
-              <p>Website: United</p>
-              <p>Github: Link</p>
-              <div class="row">
-                <div class="col-5 col-lg-6 mt-2">
-                  <button class="btn btn dbtn2">Offline classes</button>
-                </div>
-                <div class="col-5 col-lg-6 mt-2 mb-2">
-                  <button class="btn btn dbtn2">Online classes</button>
-                </div>
-              </div>
-            </div>     
-          </div>
-          <div class="carousel-item">
-            
-            <div  class="project2">
-              <img  class="img-fluid projectimg" src="images/book.avif" alt="">
-              <p>Student Name: Anuj</p>
-              <p>Website: United</p>
-              <p>Github: Link</p>
-              <div class="row">
-                <div class="col-5 col-lg-6 mt-2">
-                  <button class="btn btn dbtn2">Offline classes</button>
-                </div>
-                <div class="col-5 col-lg-6 mt-2 mb-2">
-                  <button class="btn btn dbtn2">Online classes</button>
-                </div>
-              </div>
-            </div>     
-        </div>
-        <button class="carousel-control-prev mt-3" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon " color="red" aria-hidden="true"></span>
-          <span class="visually-hidden ">Previous</span>
-        </button>
-        <button class="carousel-control-next mt-3" type="button"  data-bs-target="#carouselExampleControls" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
-      </div>
-      
-    </div>
-
-    </div>
-
-
-
-   
-
-    
-
-
-   
 
 
 
@@ -675,15 +743,21 @@
 
 
 
-    <!-- Optional JavaScript; choose one of the two! -->
 
-    <!-- Option 1: Bootstrap Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-      crossorigin="anonymous"></script>
 
-    <!-- Option 2: Separate Popper and Bootstrap JS -->
-    <!--
+
+
+
+
+  <!-- Optional JavaScript; choose one of the two! -->
+
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+
+  <!-- Option 2: Separate Popper and Bootstrap JS -->
+  <!--
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
     -->

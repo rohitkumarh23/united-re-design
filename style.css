@@ -6,6 +6,12 @@
 
 }
 
+*::selection {
+    color: white;
+    background-color: black;
+
+}
+
 body {
     width: 100%;
     height: 100%;
@@ -14,6 +20,12 @@ body {
 
 .top {
     background-color: rgba(255, 255, 255, 0.938);
+}
+
+.top-banner {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
 }
 
 #red {
@@ -41,6 +53,23 @@ body {
     margin-top: 6px;
 }
 
+#main-div {
+    background-color: #042F72;
+}
+
+.nav-div {
+    border-radius: 13px;
+    width: 95%;
+    background-image: url(images/Rectangle\ 1.png);
+    height: 90px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#canvastext {
+    color: black;
+}
+
 .explore {
     text-align: center;
 }
@@ -57,6 +86,114 @@ body {
 .buttonh:hover {
     border: 2px solid black;
     box-shadow: black 5px 4px;
+}
+
+.jobmilti {
+    background-image: url(images/background\ 3\ 1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: white;
+}
+
+.job-heading {
+    text-align: center;
+}
+
+.job-heading-skill {
+    color: red;
+}
+
+.job-heading-reason {
+    text-decoration: underline;
+}
+
+.master-div {
+    background-image: url(images/background\ 1\ \(1\)\ 1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.master-para {
+    font-size: 20px;
+    color: white;
+}
+
+.master-button {
+    margin-left: 20px;
+}
+
+.skills-h5 {
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.skills-input-div {
+    margin: 20px
+}
+
+.input-skills {
+    height: 50px;
+    background-color: #FFF4F4;
+
+}
+
+.skills-btn-div {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.skills-btn {
+    width: 90%;
+    margin-left: 23px;
+    font-weight: bold;
+    font-size: 19px;
+}
+
+.diploma-h2 {
+    font-weight: bold;
+}
+
+.diploma-div-btn {
+    display: flex;
+    gap: 20px;
+}
+
+.e-accounting-diploma {
+    border: 1px solid black;
+    border-radius: 30px;
+}
+
+.accenture {
+    margin-bottom: 12px;
+    margin-right: 15px;
+}
+
+.diploma-img {
+    margin-right: 15px;
+}
+
+.diploma-amazon {
+    margin-top: 10px;
+    margin-right: 15px;
+}
+
+.book-demo {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    font-weight: 300;
+}
+
+.diploma-st-project {
+    display: flex;
+}
+
+.diploma-project-h3 {
+    margin: 0px 30px
+}
+
+.course-h3 {
+    font-size: 37px;
+    font-weight: 600;
 }
 
 .button2:hover {
@@ -107,11 +244,11 @@ body {
 
 .off-canvas {
     margin: 10px 50px;
-     gap: 20px; 
+    gap: 20px;
     color: blue;
 }
 
-.off-canvas img{
+.off-canvas img {
     width: 40vw;
     margin-bottom: 20px;
 
@@ -286,7 +423,7 @@ h4 {
 
 #hh {
     overflow: hidden;
-    
+
 }
 
 .dbtn {
@@ -324,6 +461,7 @@ h4 {
     box-shadow: black 5px 4px;
     color: white;
 }
+
 .dbtn3 {
     /* background-color: #52B3FE; */
     background: linear-gradient(to left bottom, white, #52B3FE);
@@ -343,57 +481,135 @@ h4 {
 }
 
 
-.kt{
+.kt {
     display: none;
 }
 
-.projectimg{
-    margin: 14px 2px; border-radius: 20px;
+.projectimg {
+    margin: 14px 2px;
+    border-radius: 20px;
 }
 
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
-  height: 100px;
-  width: 100px;
-  background-size: 100%, 100%;
-  background-image: none;
+    height: 100px;
+    width: 100px;
+    background-size: 100%, 100%;
+    background-image: none;
 }
 
-.carousel-control-next-icon:after
-{
-  content: '>';
-  margin-top: 50px;
-  font-size: 50px;
-  color: black;
+.carousel-control-next-icon:after {
+    content: '>';
+    margin-top: 50px;
+    font-size: 50px;
+    color: black;
 }
 
 .carousel-control-prev-icon:after {
-  content: '<';
-  margin-left: 20px;
-  margin-top: 50px;
-  font-size: 50px;
-  color: black;
+    content: '<';
+    margin-left: 20px;
+    margin-top: 50px;
+    font-size: 50px;
+    color: black;
 }
 
-.bro{
+.bro {
     overflow: hidden;
-    
-}
-.bro1{
-    margin: 14px 2px;
-     border-radius: 20px;
+
 }
 
-.bro1:hover{
+.bro1 {
+    margin: 14px 2px;
+    border-radius: 20px;
+}
+
+.bro1:hover {
     margin: 14px 2px;
     border-radius: 30px;
     transition: all 0.3s;
     transform: scale(1.1);
 }
 
+.benefit-div {
+    background-color: #FFFAEA;
+    height: 540px;
+    border-radius: 20px;
+}
+
+.li {
+    color: rgb(0, 89, 255);
+    font-size: 26px;
+    margin-bottom: 6px;
+}
+
+.li2 {
+    color: black;
+    font-size: 20px;
+}
+
+.diploma-pay{
+    font-weight: 500;
+    margin-left: 210px;
+}
+
+.diploma-pay-2{
+    color: grey; font-weight: 500;margin-left: 15px;
+}
+
+.about-div{
+    background-color: #042F72;
+}
+
+.aboutp{
+    color: white;font-size: 0.8vw;font-weight: 500;
+}
+
+.abouth3{
+    color: white;font-size: 2vw;
+}
+
+#sir-img:hover{
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: white 5px 4px ;
+}
+
+.story-main{
+    
+        background-image: url(images/background\ 3\ 1.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-color: white;
+
+}
+
+.story-div{
+    position: relative;
+}
+
+.story-img1{
+    border-radius: 50px;box-shadow: black 7px 7px; 
+}
+.story-img2{
+    border-radius: 50px;box-shadow: black 7px 7px; 
+}
 
 
+.story-h3-1{
+    position: absolute; top: 13%;left: 20%; color: white;
+}
 
+.story-h3-2{
+    position: absolute; top: 25%;left: 16%; color: white;
+}
+
+.story-h3-3{
+    position: absolute; top: 20%;left: 50%; color: white;
+}
+
+.story-p{
+    position: absolute; top: 60%;left: 29%; color: white;
+}
 @keyframes hello {
     0% {
         left: -100px;
@@ -410,10 +626,12 @@ h4 {
         display: inline;
         right: 0;
     }
-    .project{
+
+    .project {
         display: none;
     }
-    .kt{
+
+    .kt {
         display: block;
     }
 }
@@ -551,38 +769,82 @@ h4 {
     .sy {
         margin-top: 20px;
     }
-    .dbtn2{
+
+    .dbtn2 {
         width: 125px;
         font-size: 12px;
     }
 
-    #gg{
+    #gg {
         margin-top: 28px;
     }
-    .kt{
+
+    .kt {
         display: block;
     }
-    .project{
+
+    .project {
         display: none;
     }
-    .project2{
+
+    .project2 {
         border: 1px solid black;
-         border-radius: 20px;
-         margin-left: 20px;
-          width: 320px;
-          background-color: #FFFAEA;
-    }
-    .projectimg{
-        width: 280px;
-        margin: 14px 20px; border-radius: 20px;
-    }
-    .project2 p{
+        border-radius: 20px;
         margin-left: 20px;
+        width: 320px;
+        background-color: #FFFAEA;
     }
-    .project2 button{
+
+    .projectimg {
+        width: 280px;
+        margin: 14px 20px;
+        border-radius: 20px;
+    }
+
+    .project2 p {
         margin-left: 20px;
     }
 
+    .project2 button {
+        margin-left: 20px;
+    }
+
+    .benefit-div {
+        background-color: #FFFAEA;
+        height: 840px;
+        border-radius: 20px;
+    }
+
+    .li {
+        color: rgb(0, 89, 255);
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+
+    .li2 {
+        color: black;
+        font-size: 16px;
+    }
+    .diploma-pay{
+        font-weight: 500;
+        margin-left: 100px;
+    }
+    .diploma-pay-2{
+        color: grey; font-weight: 500;margin-left: 15px;
+    }
+
+    .story-img2{
+        width: 330px;
+    }
+    .story-h3-3{
+        left: 25%;
+    }
+    .story-p{
+        left: 10%;
+    }
+    .story-div{
+        display: flex;
+    }
 }
 
 
@@ -649,10 +911,12 @@ h4 {
         background-color: #0B5ED7;
         color: white;
     }
-    .kt{
+
+    .kt {
         display: block;
     }
-    .project{
+
+    .project {
         display: none;
     }
 
@@ -750,7 +1014,8 @@ h4 {
         height: 49px;
         font-size: 12px;
     }
-    #diploma-img{
+
+    #diploma-img {
         height: 600px;
     }
 
@@ -766,25 +1031,34 @@ h4 {
     .masterp {
         font-size: 18px;
     }
-    .kt{
+
+    .kt {
         display: none;
     }
 
-    .project{
+    .project {
         border: 1px solid black;
-         border-radius: 20px; 
-         width: 320px;
-         background-color: #FFFAEA;
+        border-radius: 20px;
+        width: 320px;
+        background-color: #FFFAEA;
     }
 
-    .project{
+    .project {
         display: block;
     }
-  .dbtn3{
-    margin: 10px;
-    width: 130px;
-    font-size: 15px;
-  }
+
+    .dbtn3 {
+        margin: 10px;
+        width: 130px;
+        font-size: 15px;
+    }
+    .diploma-pay{
+        font-weight: 500;
+        margin-left: 10px;
+    }
+    .diploma-pay-2{
+        color: grey; font-weight: 500;margin-left: 15px;
+    }
 }
 
 /* lg */
@@ -884,38 +1158,82 @@ h4 {
         font-size: 17px;
     }
 
-    .coursep1{
+    .coursep1 {
         font-size: 20px;
     }
-    .coursep{
+
+    .coursep {
         font-size: 18px;
     }
-    .dbtn2{
+
+    .dbtn2 {
         width: 155px;
         font-size: 17px;
     }
-    #gg{
+
+    #gg {
         margin-top: 45px;
     }
-    .kt{
+
+    .kt {
         display: none;
     }
 
-    .project{
-        border: 1px solid black; border-radius: 20px; width: 350px;background-color: #FFFAEA;
+    .project {
+        border: 1px solid black;
+        border-radius: 20px;
+        width: 350px;
+        background-color: #FFFAEA;
     }
-    .project{
+
+    .project {
         display: block;
     }
-    .project2{
+
+    .project2 {
         border: 1px solid black;
-         border-radius: 20px;
-          width: 350px;
-          background-color: #FFFAEA;
+        border-radius: 20px;
+        width: 350px;
+        background-color: #FFFAEA;
     }
 
-    #hide2{
+    #hide2 {
         display: none;
+    }
+
+    .benefit-div {
+        background-color: #FFFAEA;
+        height: 540px;
+        border-radius: 20px;
+    }
+
+    .li {
+        color: rgb(0, 89, 255);
+        font-size: 27px;
+        margin-bottom: 10px;
+    }
+
+    .li2 {
+        color: black;
+        font-size: 22px;
+    }
+    .diploma-pay{
+        font-weight: 500;
+        margin-left: 210px;
+    }
+    
+    .diploma-pay-2{
+        color: grey; font-weight: 500;margin-left: 15px;
+    }
+
+    .story-img2{
+        width: 588px;
+    }
+    .story-h3-3{
+        left: 35%;
+    }
+    .story-p{
+        left: 30%;
     }
 
 }
