@@ -55,11 +55,14 @@ body {
 
 #main-div {
     background-color: #042F72;
+    width: 100%;
+    height: 100%;
+    padding: 30px;
 }
 
 .nav-div {
     border-radius: 13px;
-    width: 95%;
+    width: 96%;
     background-image: url(images/Rectangle\ 1.png);
     height: 90px;
     background-repeat: no-repeat;
@@ -234,8 +237,8 @@ body {
     font-size: 19px;
     font-weight: 600;
     color: white;
-    gap: 10px;
-    margin: 10px 30px;
+    gap: 20px;
+    margin: 10px 55px;
 }
 
 .img {
@@ -245,7 +248,7 @@ body {
 .off-canvas {
     margin: 10px 50px;
     gap: 20px;
-    color: blue;
+    
 }
 
 .off-canvas img {
@@ -280,7 +283,7 @@ body {
     background-color: #fff2f2;
     width: 90%;
     border-radius: 30px;
-    height: 60vh;
+  
 }
 
 .headimg {
@@ -621,13 +624,6 @@ h4 {
 }
 
 
-/* xs */
-
-
-
-
-
-
 /* lg */
 @media(min-width: 1200px) {
     #hide {
@@ -636,25 +632,29 @@ h4 {
     }
 
     .head {
-        height: 57vh;
+        width: 84vw;
+        height: 56vh;
     }
 
     .headtext {
-        font-size: 37px;
+        font-size: 47px;
+        margin-left: -80px;
     }
 
     .headtext2 {
         font-size: 37px;
+        margin-left: -80px;
     }
 
     .headp {
         text-align: justify;
         font-size: 20px;
+        margin-left: -80px;
     }
 
     .headimg {
-        width: 460px;
-        height: 400px;
+        width: 100%;
+        height: 450px;
     }
 
     .button3 {
@@ -1044,10 +1044,7 @@ h4 {
         font-size: 3vw;
     }
 
-    #on {
-        margin-left: 60px;
-    }
-
+   
     .diploma-btn:hover {
         box-shadow: black 5px 4px;
         border: 2px solid black;
@@ -1067,29 +1064,47 @@ h4 {
 }
 
 @media (max-width : 450px) {
-    #on {
-        margin-left: 20px;
+
+    .buttonh h6{
+        margin-top: 3%;
+        font-size: 80%;
+    }
+    .buttonh:hover{
+        font-size: 90%;
     }
 
     .head {
-        height: 106vh;
+        height: 100%;
+        width: 100%;
     }
 
     .headimg {
         width: 270px;
+        margin-bottom: 10px;
     }
 
     #hide {
-        display: inline;
-        right: 0;
+        display: block;
+        margin-top: 5%;
+        margin-right: -1%;
     }
+    .canvastext{
+        color: black;
+        display: block;
+    }
+
 
     .headtext {
         font-size: 20px;
     }
+    
 
     .button2 {
-        width: 160px;
+        width: 137px;
+        margin: 0px;
+    }
+    .button2 h6{
+        font-size: 15px;
     }
 
     .headtext2 {
@@ -1229,6 +1244,9 @@ h4 {
         margin: 14px 20px;
         border-radius: 20px;
     }
+    .master{
+        margin-left: 0px;
+    }
 
     .project2 p {
         margin-left: 20px;
@@ -1273,6 +1291,9 @@ h4 {
     }
     .story-div{
         display: flex;
+    }
+    .job-heading{
+        font-size: 2vw; 
     }
 }
 
