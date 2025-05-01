@@ -1092,6 +1092,9 @@ h4 {
         color: black;
         display: block;
     }
+    .navbar a{
+        color: black;
+    }
 
 
     .headtext {
