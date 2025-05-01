@@ -1097,6 +1097,10 @@ h4 {
     .headtext {
         font-size: 20px;
     }
+
+    .skillimg{
+        margin-right: 20px;
+    }
     
 
     .button2 {
@@ -1142,8 +1146,6 @@ h4 {
     #course {
         width: 309px;
     }
-
-
 
     .diploma-btn:hover {
         box-shadow: black 5px 4px;
@@ -1276,6 +1278,7 @@ h4 {
         font-weight: 500;
         margin-left: 100px;
     }
+
     .diploma-pay-2{
         color: grey; font-weight: 500;margin-left: 15px;
     }
@@ -1283,6 +1286,7 @@ h4 {
     .story-img2{
         width: 330px;
     }
+
     .story-h3-3{
         left: 25%;
     }
