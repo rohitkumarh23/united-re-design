@@ -53,6 +53,10 @@ body {
     margin-top: 6px;
 }
 
+.top-div{
+    font-weight: 650;font-size: 19px;
+}
+
 #main-div {
     background-color: #042F72;
     width: 100%;
@@ -447,6 +451,23 @@ h4 {
     color: white;
 }
 
+.dbtn4 {
+    /* background-color: #52B3FE; */
+    background: linear-gradient(to left bottom, white, #52B3FE);
+    color: #fff;
+    border-radius: 15px;
+    width: 150px;
+    height: 45px;
+    border: 1px solid black;
+    font-weight: bold;
+    font-size: 17px;
+
+}
+
+.dbtn4:hover {
+    box-shadow: black 5px 4px;
+    color: white;
+}
 .dbtn2 {
     /* background-color: #52B3FE; */
     background: linear-gradient(to left bottom, white, #52B3FE);
@@ -612,6 +633,14 @@ h4 {
 
 .story-p{
     position: absolute; top: 60%;left: 29%; color: white;
+}
+#diploma-img{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.master-main-div{
+    margin-top: 10px;
 }
 @keyframes hello {
     0% {
@@ -802,6 +831,10 @@ h4 {
     .story-p{
         left: 30%;
     }
+    .project{
+        width: 29%;
+       margin: 26px;
+    }
 
 }
 
@@ -947,6 +980,7 @@ h4 {
 
     #diploma-img {
         height: 600px;
+       
     }
 
     .master {
@@ -1102,7 +1136,9 @@ h4 {
     }
 
     .skillimg{
+       
         margin-right: 20px;
+        border-radius: 0px 10px 10px 0px;
     }
     
 
@@ -1143,11 +1179,21 @@ h4 {
     }
 
     #skills {
-        width: 355px;
+        width: 392px;
+    }
+
+    #row-skill{
+        margin-left: 0px;
+    }
+    .master-button{
+        margin-left: 78px;
     }
 
     #course {
-        width: 309px;
+        width: 355px;
+    }
+    .e-accounting-diploma{
+        width: 400px;
     }
 
     .diploma-btn:hover {
@@ -1302,8 +1348,18 @@ h4 {
     .job-heading{
         font-size: 2vw; 
     }
+    .top-h5{
+        font-size: 13px;
+    }
+    .buttonh{
+        margin-left: 30px;
+    }
+
+    #on2{
+        margin-left: 25px;
+    }
 }
-@media (max-width : 375px){
+@media (max-width : 380px){
     #skills {
         background-color: #B9DDFC;
         width: 329px;
@@ -1338,6 +1394,100 @@ h4 {
     #btn{
         margin-right: 0px;
     }
+
+    #hide {
+        display: block;
+        margin-top: 5%;
+        margin-left: -1%;
+    }
+
+    .top-h5{
+         font-size: 11px;
+         font-weight: 650;
+        
+    }
+    .buttonh{
+        margin-left: 25px;
+    }
+
+    .headimg{
+        margin-left: 0px;
+    }
+
+    #row-skill{
+        margin-left: 0px;
+    }
+    .masterh h4{
+        margin: 0px;
+        font-size: 20px;
+    }
+
+    .master-para{
+        font-size: 20px;
+    }
+    .master-main-div{
+        margin-top: 0px;
+    }
+
+    .master-button{
+        text-align: center;
+    }
+    .master{
+        width: 130px;
+       
+    }
+    .syllabus{
+        width: 310px;
+        margin-left: 0px;
+        margin-right: 20px;
+    }
+    .dbtn{
+       width: 106px;
+       font-size: 8px;
+    }
+    
+    .sy{
+        font-size: 15px;
+    }
+
+    .dbtn2{
+       
+        width: 127px;
+    }
+
+    .student-btn{
+        width: 10px;
+    }
+
+    .project2{
+        width: 261px;
+    }
+
+    .projectimg{
+        width: 230px;
+    }
+
+    .project2 button{
+        margin-left: 0px;
+    }
+
+    .dbtn4{
+        margin-left: 20px;
+        width: 107px;
+        font-size: 11px;
+    }
+
+    .diploma-pay{
+        font-size: 11px;
+    }
+    #diploma-img{
+        margin-top: 0px;
+        margin-bottom: 10px;
+    }
+
+    
+
+    
     
 }
 
