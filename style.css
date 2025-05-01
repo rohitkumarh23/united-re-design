@@ -1324,6 +1324,20 @@ h4 {
     .e-accounting-diploma{
         width: 335px;
     }
+
+    .skills-btn{
+        margin: 0px;
+        
+        
+        
+        
+    }
+    .skills-btn-div{
+        justify-content: center;
+    }
+    #btn{
+        margin-right: 0px;
+    }
     
 }
 
