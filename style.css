@@ -642,6 +642,24 @@ h4 {
 .master-main-div{
     margin-top: 10px;
 }
+
+#block{
+    animation: appear linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover
+    40%;
+}
+ @keyframes appear {
+    from{
+        opacity: 0;
+        transform: translateX(-100px);
+    }
+    to{
+        opacity: 1;
+        transform: translateX(0px);
+    }
+    
+} 
 @keyframes hello {
     0% {
         left: -100px;
@@ -1115,7 +1133,9 @@ h4 {
     .headimg {
         width: 270px;
         margin-bottom: 10px;
+        margin-left: 20px;
     }
+
 
     #hide {
         display: block;
@@ -1179,7 +1199,7 @@ h4 {
     }
 
     #skills {
-        width: 359px;
+        width: 357px;
     }
 
     #row-skill{
@@ -1190,10 +1210,11 @@ h4 {
     }
 
     #course {
-        width: 355px;
+        width: 320px;
     }
     .e-accounting-diploma{
-        width: 400px;
+        width: 90vw;
+       
     }
 
     .diploma-btn:hover {
