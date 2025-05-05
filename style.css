@@ -122,7 +122,7 @@ body {
 }
 
 .master-para {
-    font-size: 20px;
+    font-size: 0.9rem;
     color: white;
 }
 
@@ -233,6 +233,19 @@ body {
     height: 35px;
     border-radius: 20px;
 }
+.button4 {
+    border: 2px solid black;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    width: 190px;
+    height: 35px;
+    border-radius: 20px;
+}
+.button4:hover {
+    box-shadow: black 5px 4px;
+    border: 2px solid black;
+
+}
 
 .buttonh h6 {
     margin-bottom: 10px;
@@ -262,10 +275,7 @@ body {
 
 }
 
-.navbar img {
-    width: 150px;
-    height: 70px;
-}
+
 
 #btn {
     margin-top: 20px;
@@ -333,16 +343,15 @@ body {
 
 .masterp {
     color: rgba(16, 124, 196, 0.842);
+    font-size: 0.8vw;
 
 }
 
-.masterh,
-h4 {
+.masterh h4 {
     font-weight: bold;
-    font-size: 35px;
-    background: linear-gradient(to right bottom, rgba(173, 216, 230, 0.616), pink);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    font-size: 4rem;
+    color: white;
+    
 }
 
 .yes {
@@ -653,11 +662,11 @@ h4 {
  @keyframes appear {
     from{
         opacity: 0;
-        transform: translateY(100px);
+       scale: 0;
     }
     to{
         opacity: 1;
-        transform: translateY(0px);
+        scale: 1;
     }
     
 } 
@@ -709,12 +718,25 @@ h4 {
         margin-left: -20px;
     }
 
-    .master {
-        width: 205px;
-    }
+    
 
     .masterh {
         text-align: start;
+    }
+    .master {
+        width: 8.7vw;
+        height: 22vh;
+    }
+    
+
+    .masterh h4 {
+        font-size: 2vw;
+    }
+    .masterh5{
+        font-size: 1vw;
+    }
+    .master-para{
+        font-size: 1.4vw;
     }
 
     .yes {
@@ -732,7 +754,7 @@ h4 {
     .yes {
         margin-left: 170px;
     }
-
+   
 
 
     .diploma-btn {
@@ -747,14 +769,6 @@ h4 {
         width: 250px;
     }
 
-    .master>h5 {
-
-        font-size: 20px;
-    }
-
-    .masterp {
-        font-size: 18px;
-    }
 
     .syllabus {
         margin-left: 9px;
@@ -1006,13 +1020,10 @@ h4 {
         width: 200px;
     }
 
-    .master>h5 {
-
-        font-size: 20px;
-    }
+  
 
     .masterp {
-        font-size: 18px;
+        font-size: 2rem;
     }
 
     .kt {
@@ -1056,7 +1067,7 @@ h4 {
     }
 
     .nav-img {
-        width: 100px;
+        width: 34vw;
     }
 
     #hide {
@@ -1139,16 +1150,21 @@ h4 {
     .buttonh:hover{
         font-size: 90%;
     }
+    .heada{
+        font-size: 5vw;
+    }
 
     .head {
         height: 100%;
         width: 100%;
+        padding: 0.5rem;
+        position: relative;
     }
 
     .headimg {
-        width: 270px;
+        width: 90%;
         margin-bottom: 10px;
-        margin-left: 20px;
+        margin-left: 5vw;
     }
 
 
@@ -1171,12 +1187,19 @@ h4 {
     }
 
     .headtext {
-        font-size: 20px;
+        font-size: 6vw;
+    }
+    .job-heading-reason{
+        font-size: 5vw;
+    }
+    .job-heading h2{
+        font-size: 6vw;
     }
 
     #skillimg{
          margin-top: 20px;
-         height: 200px;
+         height: 75%;
+         padding: 0.5rem;
         border-radius: 0px 22px 22px 0px;
     }
 
@@ -1189,35 +1212,40 @@ h4 {
     
 
     .button2 {
-        width: 137px;
-        margin: 0px;
+        width: 80%;
+        margin: 1rem;
     }
     .button2 h6{
-        font-size: 15px;
+        font-size: 3vw;
     }
 
     .headtext2 {
-        font-size: 21px;
+        font-size: 6vw;
     }
 
     .headp {
-        font-size: 15px;
+        font-size: 3vw;
     }
 
     .jobp {
-        font-size: 17px;
+        font-size:4vw;
     }
 
     .button3 {
-        margin-left: -20px;
+        margin-left: 0vw;
+        width:40vw;
+       
+    }
+    .button3 h6{
+        font-size: 3vw;
     }
 
     .master {
-        width: 169px;
+        width: 30vw;
     }
 
-    .masterh>h4 {
-        color: red;
+    .masterh h4 {
+        font-size: 8vw;
     }
 
     .yes {
@@ -1225,19 +1253,35 @@ h4 {
     }
 
     #skills {
-        width: 357px;
+        width: 84vw;
         margin-bottom: 20px;
     }
+    #on2{
+        margin-left: 8vw;
+    }
+    #block{
+        padding: 2.8%;
+    }
+    
 
     #row-skill{
         margin-left: 0px;
     }
     .master-button{
-        margin-left: 78px;
+        margin-left: 14%;
     }
 
     #course {
-        width: 320px;
+        width: 89%;
+    }
+    .masterh5{
+        font-size: 1rem;
+    }
+    #btn{
+        margin-right: 10vw;
+    }
+    .skills-btn{
+        margin-left: 5%;
     }
     .e-accounting-diploma{
         width: 90vw;
@@ -1264,19 +1308,18 @@ h4 {
     .diploma-btn-div {
         text-align: center;
     }
-
-    .master {
-        width: 140px;
-
+    .button4{
+        margin-right: 0vw;
+        width:40vw;
+    }
+    .button4 h6{
+        font-size: 3vw;
     }
 
-    .master>h5 {
-
-        font-size: 13px;
-    }
+   
 
     .masterp {
-        font-size: 13px;
+        font-size: 0.8rem;
     }
 
     .sy {
@@ -1328,6 +1371,13 @@ h4 {
 
     .project {
         display: none;
+    }
+    .nav-div{
+        width: 100%;
+    }
+    .nav-img{
+        width: 34vw;
+        height: auto;
     }
 
     .project2 {
@@ -1402,144 +1452,24 @@ h4 {
     .buttonh{
         margin-left: 20px;
     }
+    .master-para{
 
-    #on2{
-        margin-left: 25px;
     }
+  
+   
     .off-canvas{
         margin: 3px 50px;
     }
 }
-@media (max-width : 384px){
-    #skills {
-        background-color: #B9DDFC;
-        width: 329px;
-        height: 400px;
-        border-radius: 14px;
-        /* box-shadow: inset black 3px 3px 3px 2px; */
-        box-shadow: rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
-    }
 
-    #course {
-        width: 293px;
-        height: 48px;
-        border-radius: 9px;
-        margin-top: 20px;
-        background-color: #FFF4F4;
-    }
-
-    .e-accounting-diploma{
-        width: 335px;
-    }
-
-    .skills-btn{
-        margin: 0px;   
-    }
-    .button3{
-        margin-left: -36px;
-    }
-    .skills-btn-div{
-        justify-content: center;
-    }
-    #btn{
-        margin-right: 0px;
-    }
-
+@media (max-width : 377px) {
     #hide {
-        display: block;
-        margin-top: 5%;
-        margin-left: -1%;
+        display: block;  
+         margin-right: -1%;
     }
-
-    .top-h5{
-         font-size: 11px;
-         font-weight: 650;
-        
-    }
-    .buttonh{
-        margin-left: 25px;
-    }
-
-    .headimg{
-        margin-left: 0px;
-    }
-
-    #row-skill{
-        margin-left: 0px;
-    }
-    .masterh h4{
-        margin: 0px;
-        font-size: 20px;
-    }
-
-    .master-para{
-        font-size: 20px;
-    }
-    .master-main-div{
-        margin-top: 0px;
-    }
-
-    .master-button{
-        text-align: center;
-    }
-    .master{
-        width: 130px;
-       
-    }
-    .syllabus{
-        width: 310px;
-        margin-left: 0px;
-        margin-right: 20px;
-    }
-    .dbtn{
-       width: 106px;
-       font-size: 8px;
-    }
-    
-    .sy{
-        font-size: 15px;
-    }
-
-    .dbtn2{
-       
-        width: 127px;
-    }
-
-    .student-btn{
-        width: 10px;
-    }
-
-    .project2{
-        width: 261px;
-    }
-
-    .projectimg{
-        width: 230px;
-    }
-
-    .project2 button{
-        margin-left: 0px;
-    }
-
-    .dbtn4{
-        margin-left: 20px;
-        width: 107px;
-        font-size: 11px;
-    }
-
-    .diploma-pay{
-        font-size: 11px;
-    }
-    #diploma-img{
-        margin-top: 0px;
-        margin-bottom: 10px;
-    }
-
-    
-
-    
     
 }
+
 
 
 
