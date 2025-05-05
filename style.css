@@ -85,8 +85,8 @@ body {
 .buttonh {
     font-weight: bold;
     margin-bottom: 10px;
-    width: 134px;
-    height: 39px;
+    width: 7vw;
+    height: 4vh;
     border-radius: 20px;
 
 }
@@ -196,7 +196,8 @@ body {
 }
 
 .diploma-project-h3 {
-    margin: 0px 30px
+    margin: 0rem 1.3rem;
+    font-size: 1.9rem;
 }
 
 .course-h3 {
@@ -364,7 +365,7 @@ body {
     height: 400px;
     border-radius: 14px;
     /* box-shadow: inset black 3px 3px 3px 2px; */
-    box-shadow: rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    box-shadow: rgb(62, 62, 62) 1px 1px 8px 0px inset, rgb(62, 62, 62) 1px 1px 8px 0px inset;;
 }
 
 #course {
@@ -466,11 +467,11 @@ body {
     background: linear-gradient(to left bottom, white, #52B3FE);
     color: #fff;
     border-radius: 15px;
-    width: 150px;
-    height: 45px;
+    width: 30vw;
+    height: 5vh;
     border: 1px solid black;
     font-weight: bold;
-    font-size: 17px;
+    font-size: 3vw;
 
 }
 
@@ -651,6 +652,21 @@ body {
 
 .master-main-div{
     margin-top: 10px;
+}
+
+.student-btn{
+    background-color: #52B3FE;
+    color: white;
+    width: 9vw;
+    font-weight: 650;
+    height: auto;
+    border: 1px solid black;
+    border-radius: 15px;
+}
+.student-btn:hover{
+    box-shadow: black 5px 4px;
+    color: white;
+    
 }
 
 #block{
@@ -1150,6 +1166,19 @@ body {
     .buttonh:hover{
         font-size: 90%;
     }
+    .buttonh {
+        font-weight: bold;
+        margin-bottom: 10px;
+        width: 25vw;
+        height: 4vh;
+        border-radius: 20px;
+    
+    }
+
+    .top-h6{
+        font-size: 3rem;
+    }
+    
     .heada{
         font-size: 5vw;
     }
@@ -1195,6 +1224,16 @@ body {
     .job-heading h2{
         font-size: 6vw;
     }
+    .diploma-project-h3 {
+        margin: 0rem 1.3rem;
+        font-size: 4vw;
+    }
+    .student-btn{
+        width: 33vw;
+        height: 5vh;
+        font-size: 3vw;
+        margin-bottom: 1.7rem;
+    }
 
     #skillimg{
          margin-top: 20px;
@@ -1208,6 +1247,10 @@ body {
        
         background-color: beige;
         
+    }
+
+    .benefits-icon{
+        width: 80%;
     }
     
 
@@ -1327,25 +1370,30 @@ body {
     }
 
     .dbtn {
-        width: 120px;
-        font-size: 10px;
+        width: 30vw;
+        font-size: 2vw;
     }
 
     .syllabus {
-        margin-left: 9px;
+        margin-left: 2%;
         border: 1px solid black;
         border-radius: 30px;
-        width: 349px;
-        padding: 10px;
+        width: 80vw;
+        padding: 1rem;
     }
 
     .coursep {
-        font-size: 10px;
+        font-size: 0.6rem;
+    }
+    .book-demo{
+        font-size: 7vw;
+        font-weight: 300;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
     }
 
     .coursep1 {
-        margin-top: 20px;
-        font-size: 10px;
+        margin-top: 10%;
+        font-size: 0.8rem;
     }
 
     .ashu {
@@ -1357,8 +1405,8 @@ body {
     }
 
     .dbtn2 {
-        width: 125px;
-        font-size: 12px;
+        width: 30vw;
+        font-size: 3vw;
     }
 
     #gg {
@@ -1384,12 +1432,12 @@ body {
         border: 1px solid black;
         border-radius: 20px;
         margin-left: 20px;
-        width: 320px;
+        width: 70vw;
         background-color: #FFFAEA;
     }
 
     .projectimg {
-        width: 280px;
+        width: 60vw;
         margin: 14px 20px;
         border-radius: 20px;
     }
@@ -1402,7 +1450,7 @@ body {
     }
 
     .project2 button {
-        margin-left: 20px;
+        margin-left: 
     }
 
     .benefit-div {
@@ -1449,14 +1497,7 @@ body {
     .top-h5{
         font-size: 13px;
     }
-    .buttonh{
-        margin-left: 20px;
-    }
-    .master-para{
-
-    }
-  
-   
+    
     .off-canvas{
         margin: 3px 50px;
     }
