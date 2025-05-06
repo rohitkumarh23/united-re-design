@@ -675,6 +675,28 @@ body {
     animation-range: entry 0% cover
     40%;
 }
+.benefits-icon{
+    width: 5.4vw;
+    border-radius: 19px;
+    height: 11vh;
+   
+}
+.benefits-text{
+    padding: 1rem 0rem;
+    font-size: 1.2rem;
+    font-weight: 550;
+    font-family: sans-serif;
+}
+.benefits-para{
+    color: grey;
+    font-size: 1.1rem;
+    font-weight: 499;
+    margin: 0.9rem 0rem; 
+}
+.story-main2{
+    display: none;
+}
+
  @keyframes appear {
     from{
         opacity: 0;
@@ -1250,7 +1272,9 @@ body {
     }
 
     .benefits-icon{
-        width: 80%;
+        width: 13vw;
+        border-radius: 12px;
+        height: 7.7vh;
     }
     
 
@@ -1359,8 +1383,6 @@ body {
         font-size: 3vw;
     }
 
-   
-
     .masterp {
         font-size: 0.8rem;
     }
@@ -1449,10 +1471,6 @@ body {
         margin-left: 20px;
     }
 
-    .project2 button {
-        margin-left: 
-    }
-
     .benefit-div {
         background-color: #FFFAEA;
         height: 840px;
@@ -1501,6 +1519,71 @@ body {
     .off-canvas{
         margin: 3px 50px;
     }
+    .benefits-icon{
+        width: 19vw;
+        border-radius: 19px;
+        height: 10vh;
+    }
+    .benefits-heading{
+        font-size: 5vw;
+    }
+    .benefits-text{
+        font-size: 3.5vw;
+        font-weight: 540;
+        font-family: sans-serif;
+    }
+    .benefits-para{
+        color: grey;
+        font-size: 3vw;
+        font-weight: 499
+    }
+    .abouth3{
+        color: white;font-size: 6vw;
+        font-family: sans-serif;
+        font-weight: 550;
+    }
+    .aboutp{
+        font-size: 4vw;
+        font-weight: 400;
+        text-align: justify;
+          
+    }
+    .abouttext-div{
+        text-align: center;
+    }
+    .story-main{
+        display: none;
+    }
+    .story-main2{
+        display: block;
+    }
+    .story-div{
+        text-align: center;
+        position: relative;
+    }
+    .story-h3-1{
+        font-size: 4vw;
+    }
+    .story-h3-2{
+        font-size: 5vw;
+    }
+    .story-h3-3{
+        font-size: 4.5vw;
+    }
+    .story-p{
+        font-size: 3.5vw;
+    }
+    .story-img1{
+        width: 43vw;
+        height: 11vh;
+        border-radius: 18px;
+    }
+    .story-img2{
+        width: 88vw;
+        height: 20vh;
+        border-radius: 18px;
+    }
+
 }
 
 @media (max-width : 377px) {
