@@ -68,7 +68,7 @@ body {
 .nav-div {
     border-radius: 13px;
     width: 96%;
-    background-image: url(images/Rectangle\ 1.png);
+    background-image: url("assest/home-assets/website-images/Rectangle\ 1.webp");
     height: 90px;
     background-repeat: no-repeat;
     background-size: cover;
@@ -97,7 +97,7 @@ body {
 }
 
 .jobmilti {
-    background-image: url(images/background\ 3\ 1.png);
+    background-image: url(assest/home-assets/backgrounds/background\ 2.webp);
     background-repeat: no-repeat;
     background-size: cover;
     background-color: white;
@@ -116,7 +116,7 @@ body {
 }
 
 .master-div {
-    background-image: url(images/background\ 1\ \(1\)\ 1.png);
+    background-image: url(assest/home-assets/backgrounds/background\ 1.webp);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -593,6 +593,8 @@ body {
 
 .about-div{
     background-color: #042F72;
+    width: 100%;
+    height: 65vh;
 }
 
 .aboutp{
@@ -601,6 +603,12 @@ body {
 
 .abouth3{
     color: white;font-size: 2vw;
+}
+#sir-img{
+    width: 100%;
+    height: 55vh;
+    border-radius: 13px;
+    object-fit: cover;
 }
 
 #sir-img:hover{
@@ -643,7 +651,7 @@ body {
 }
 
 .story-p{
-    position: absolute; top: 60%;left: 29%; color: white;
+    position: absolute; top: 59%;left: 22%; color: white;
 }
 #diploma-img{
     margin-top: 10px;
@@ -695,6 +703,29 @@ body {
 }
 .story-main2{
     display: none;
+}
+.story-p{
+    font-size: 1vw;
+}
+
+.certificateimg1{
+    margin-top: 18%;
+    width: 61%;
+    height: 50%;
+    border: 2px solid black;
+}
+.certificateimg2{
+    width: 62%;
+    height: 100%;
+    border: 2px solid black;
+}
+.nav-img{
+    width: 8vw;
+    height: auto;
+}
+
+#skillimg{
+    border-radius: 22px 22px 22px 22px;
 }
 
  @keyframes appear {
@@ -906,6 +937,23 @@ body {
         width: 29%;
        margin: 26px;
     }
+    .job-img{
+        width: 13vw;
+        height: 19vh;
+        object-fit: cover;
+        object-position: center;
+    }
+    .job-img2{
+        width: 13vw;
+        height: 19vh;
+        object-fit: cover;
+        object-position: center;
+
+    }
+    .aboutp{
+        text-align: justify;
+        font-size: 0.9vw;
+    }
 
 }
 
@@ -949,88 +997,196 @@ body {
 }
 
 @media (max-width : 992px){
-    #hide {
-        display: none;
-        left: 0;
+    #green{
+        width: 7px;
+        height: 7px;
+    }
+    #red{
+        width: 7px;
+        height: 7px;
+    }
+    #blue{
+        width: 7px;
+        height: 7px;
+    }
+    .top-banner{
+        gap: 0.1px;
+    }
+    .buttonh h6{
+        margin-top: 3%;
+        font-size: 80%;
+    }
+    .buttonh:hover{
+        font-size: 90%;
+    }
+    .buttonh {
+        font-weight: bold;
+        margin-bottom: 10px;
+        width: 25vw;
+        height: 5vh;
+        border-radius: 20px;
+    
     }
 
-    #canvastext{
-        display: none;
+    .top-h6{
+        font-size: 3vw;
     }
-}
-/* md */
-@media (max-width : 768px) {
-
-    #hide {
-        display: inline;
-        right: 0;
+    
+    .heada{
+        font-size: 5vw;
     }
 
     .head {
-        height: 48vh;
-    }
-
-    .headtext {
-        font-size: 22px;
-    }
-
-    .headtext2 {
-        font-size: 22px;
-    }
-
-    .headp {
-        text-align: justify;
-        font-size: 2vw;
+        height: 100%;
+        width: 100%;
+        padding: 0.5rem;
+        position: relative;
     }
 
     .headimg {
-        top: 0px;
-        width: 230px;
-        height: 300px;
+        width: 90%;
+        margin-bottom: 50px;
+        margin-left: 5vw;
     }
 
-    .explore {
-        margin-top: -0px;
-        text-align: center;
+
+    #hide {
+        display: block;
+        margin-top: 3%;
+        margin-right: -1%;
+    }
+    .canvastext{
+        color: black;
+        display: block;
+    }
+    .navbar a{
+        color: black;
+    }
+    .btn-close{
+        width: 20px;
+        height: 20px;
+        margin-top: 10px;
     }
 
-    .on {
-        padding: 50px;
-        margin: 30px;
+    .headtext {
+        font-size: 6vw;
+    }
+    .job-heading-reason{
+        font-size: 4vw;
+    }
+    .job-heading h2{
+        font-size: 4.7vw;
+    }
+    .diploma-project-h3 {
+        margin: 0rem 1.3rem;
+        font-size: 4vw;
+    }
+    .student-btn{
+        width: 33vw;
+        height: 5vh;
+        font-size: 3vw;
+        margin-bottom: 1.7rem;
+    }
+
+    #skillimg{
+         margin-top: 20px;
+         height: 75%;
+         padding: 0.3rem;
+        border-radius: 22px 22px 22px 22px;
+    }
+
+    .skills-row{
+       border-radius: 25px;
+       
+        background-color: beige;
+        
+    }
+
+    .benefits-icon{
+        width: 13vw;
+        border-radius: 12px;
+        height: 7.7vh;
+    }
+    
+
+    .button2 {
+        width: 80%;
+        height: 6vh;
+        margin: 1rem;
+    }
+    .button2 h6{
+        font-size: 3vw;
+    }
+
+    .headtext2 {
+        font-size: 6vw;
+    }
+
+    .headp {
+        font-size: 3vw;
     }
 
     .jobp {
-        font-size: 22px;
+        font-size:3vw;
     }
 
     .button3 {
-        margin-left: 230px;
+        margin-left: 0vw;
+        width:27vw;
+        height: 5vh;
+       
     }
-
-    .masterh {
-        text-align: center;
-    }
-
-    #skills {
-        width: 345px;
-    }
-
-    #course {
-        width: 300px;
-    }
-
-    #skillimg {
-        height: 400px;
-    }
-
-    #row-skill {
-        margin-left: 30px;
+    .button3 h6{
+        font-size: 3vw;
     }
 
     .master {
-        margin-left: 64px;
+        width: 30vw;
     }
 
+    .masterh h4 {
+        font-size: 6vw;
+    }
+
+    .yes {
+        margin-left: -5px;
+    }
+
+    #skills {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    #on2{
+        margin-left: 8vw;
+    }
+    #block{
+        padding: 2.8%;
+    }
+    
+
+    #row-skill{
+        margin-left: 0px;
+    }
+    .master-button{
+        margin-left: 14%;
+    }
+
+    #course {
+        width: 89%;
+    }
+    .masterh5{
+        font-size: 1rem;
+    }
+    #btn{
+        margin-right: 10vw;
+    }
+    .skills-btn{
+        margin-left: 5%;
+    }
+    .e-accounting-diploma{
+        width: 90vw;
+       
+    }
 
     .diploma-btn:hover {
         box-shadow: black 5px 4px;
@@ -1040,113 +1196,456 @@ body {
     }
 
     .diploma-btn {
-        font-size: 12px;
+        font-size: 14px;
     }
 
     #diploma-btn2 {
-        width: 103px;
-        height: 49px;
-        font-size: 12px;
-    }
-
-    #diploma-img {
-        height: 600px;
-       
-    }
-
-    .master {
         width: 200px;
+        height: 40px;
+        font-size: 14px;
     }
 
-  
+    .diploma-btn-div {
+        text-align: center;
+    }
+    .button4{
+        margin-right: 0vw;
+        width:40vw;
+    }
+    .button4 h6{
+        font-size: 2vw;
+    }
 
     .masterp {
-        font-size: 2rem;
+        font-size: 0.8rem;
+    }
+    .master-para{
+        font-size: 2.4vw;
     }
 
-    .kt {
-        display: none;
+    .sy {
+        font-size: 14px;
     }
 
-    .project {
+    .dbtn {
+        width: 30vw;
+        font-size: 2vw;
+    }
+
+    .syllabus {
+        margin-left: 2%;
         border: 1px solid black;
-        border-radius: 20px;
-        width: 320px;
-        background-color: #FFFAEA;
+        border-radius: 30px;
+        width: 80vw;
+        padding: 1rem;
     }
 
-    .project {
-        display: block;
+    .coursep {
+        font-size: 0.6rem;
+    }
+    .book-demo{
+        font-size: 7vw;
+        font-weight: 300;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
     }
 
-    .dbtn3 {
-        margin: 10px;
-        width: 130px;
-        font-size: 15px;
-    }
-    .diploma-pay{
-        font-weight: 500;
-        margin-left: 10px;
-    }
-    .diploma-pay-2{
-        color: grey; font-weight: 500;margin-left: 15px;
-    }
-}
-
-/* sm */
-@media (max-width : 578px) {
-    #hide {
-        display: inline;
-        right: 0;
+    #sir-img{
+        width: 100%;
+        height: 20%;
     }
 
-    #red {
-        margin-left: 0px;
+    .coursep1 {
+        margin-top: 10%;
+        font-size: 0.8rem;
     }
 
-    .nav-img {
-        width: 34vw;
+    .ashu {
+        margin-top: 20px;
     }
 
-    #hide {
-        display: inline;
-        right: 0;
+    .sy {
+        margin-top: 20px;
     }
 
-    .head {
-        height: 99vh;
-    }
-
-    .headimg {
-        margin-left: 37px;
-        width: 270px;
-        height: 226px;
-    }
-
-    .explore {
-        margin-top: -0px;
-        text-align: center;
-    }
-
-    .headtext {
-        font-size: 25px;
-    }
-
-    .headtext2 {
-        font-size: 24px;
-    }
-
-    .heada {
-        margin-top: 0px;
-        text-align: center;
-    }
-
-    .headp {
-        text-align: justify;
+    .dbtn2 {
+        width: 30vw;
         font-size: 3vw;
     }
 
+    #gg {
+        margin-top: 28px;
+    }
+
+    .kt {
+        display: block;
+    }
+
+    .project {
+        display: none;
+    }
+    .nav-div{
+        width: 100%;
+    }
+    .nav-img{
+        width: 23vw;
+        padding: 0.1vw;
+        height: auto;
+    }
+
+    .project2 {
+        border: 1px solid black;
+        border-radius: 20px;
+        margin-left: 20px;
+        width: 70vw;
+        background-color: #FFFAEA;
+    }
+
+    .projectimg {
+        width: 60vw;
+        margin: 14px 20px;
+        border-radius: 20px;
+    }
+    .master{
+        margin-left: 0px;
+    }
+
+    .project2 p {
+        margin-left: 20px;
+    }
+
+    .benefit-div {
+        background-color: #FFFAEA;
+        height: 840px;
+        border-radius: 20px;
+    }
+
+    .li {
+        color: rgb(0, 89, 255);
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+
+    .li2 {
+        color: black;
+        font-size: 16px;
+    }
+    .diploma-pay{
+        font-weight: 500;
+        margin-left: 100px;
+    }
+
+    .diploma-pay-2{
+        color: grey; font-weight: 500;margin-left: 15px;
+    }
+
+    .story-img2{
+        width: 330px;
+    }
+
+    .story-h3-3{
+        left: 25%;
+    }
+    .story-p{
+        left: 10%;
+    }
+    .story-div{
+        display: flex;
+    }
    
+    .top-h5{
+        font-size: 2.6vw;
+    }
+    
+    .off-canvas{
+        margin: 3px 50px;
+    }
+    .benefits-icon{
+        width: 19vw;
+        border-radius: 19px;
+        height: 10vh;
+    }
+    .benefits-heading{
+        font-size: 5vw;
+    }
+    .benefits-text{
+        font-size: 3.5vw;
+        font-weight: 540;
+        font-family: sans-serif;
+    }
+    .benefits-para{
+        color: grey;
+        font-size: 3vw;
+        font-weight: 499
+    }
+    .abouth3{
+        color: white;font-size: 6vw;
+        font-family: sans-serif;
+        font-weight: 550;
+    }
+    .aboutp{
+        font-size: 4vw;
+        font-weight: 400;
+        text-align: justify;
+          
+    }
+    .abouttext-div{
+        text-align: center;
+    }
+    .about-div{
+        background-color: #042F72;
+        width: 100%;
+        height: 80%;
+    }
+    .story-main{
+        display: none;
+    }
+    .story-main2{
+        display: block;
+    }
+    .story-div{
+        text-align: center;
+        position: relative;
+    }
+    .story-h3-1{
+        font-size: 4vw;
+    }
+    .story-h3-2{
+        font-size: 5vw;
+    }
+    .story-h3-3{
+        font-size: 4.5vw;
+    }
+    .story-p{
+        font-size: 3.5vw;
+    }
+    .story-img1{
+        width: 43vw;
+        height: 11vh;
+        border-radius: 18px;
+    }
+    .story-img2{
+        width: 88vw;
+        height: 20vh;
+        border-radius: 18px;
+    }
+    .job-img{
+        width: 28vw;
+        height: 19vh;
+        object-fit: cover;
+        object-position: center;
+    }
+    .job-img2{
+        width: 28vw;
+        height: 19vh;
+        object-fit: cover;
+        object-position: center;
+
+    }
+    .certificateimg1{
+        margin-top: 18%;
+        width: 90%;
+        height: 70%;
+        border: 2px solid black;
+    }
+    .certificateimg2{
+        width: 92%;
+        height: 100%;
+        border: 2px solid black;
+    }
+}
+/* md */
+@media (max-width : 768px) {
+    #green{
+        width: 7px;
+        height: 7px;
+    }
+    #red{
+        width: 7px;
+        height: 7px;
+    }
+    #blue{
+        width: 7px;
+        height: 7px;
+    }
+    .top-banner{
+        gap: 0.1px;
+    }
+    .buttonh h6{
+        margin-top: 3%;
+        font-size: 80%;
+    }
+    .buttonh:hover{
+        font-size: 90%;
+    }
+    .buttonh {
+        font-weight: bold;
+        margin-bottom: 10px;
+        width: 25vw;
+        height: 5vh;
+        border-radius: 20px;
+    
+    }
+
+    .top-h6{
+        font-size: 3vw;
+    }
+    
+    .heada{
+        font-size: 5vw;
+    }
+
+    .head {
+        height: 100%;
+        width: 100%;
+        padding: 0.5rem;
+        position: relative;
+    }
+
+    .headimg {
+        width: 90%;
+        margin-bottom: 50px;
+        margin-left: 5vw;
+    }
+
+
+    #hide {
+        display: block;
+        margin-top: 3%;
+        margin-right: -1%;
+    }
+    .canvastext{
+        color: black;
+        display: block;
+    }
+    .navbar a{
+        color: black;
+    }
+    .btn-close{
+        width: 20px;
+        height: 20px;
+        margin-top: 10px;
+    }
+
+    .headtext {
+        font-size: 6vw;
+    }
+    .job-heading-reason{
+        font-size: 4vw;
+    }
+    .job-heading h2{
+        font-size: 4.7vw;
+    }
+    .diploma-project-h3 {
+        margin: 0rem 1.3rem;
+        font-size: 4vw;
+    }
+    .student-btn{
+        width: 33vw;
+        height: 5vh;
+        font-size: 3vw;
+        margin-bottom: 1.7rem;
+    }
+
+    #skillimg{
+         margin-top: 20px;
+         height: 75%;
+         padding: 0.3rem;
+        border-radius: 22px 22px 22px 22px;
+    }
+
+    .skills-row{
+       border-radius: 25px;
+       
+        background-color: beige;
+        
+    }
+
+    .benefits-icon{
+        width: 13vw;
+        border-radius: 12px;
+        height: 7.7vh;
+    }
+    
+
+    .button2 {
+        width: 80%;
+        height: 6vh;
+        margin: 1rem;
+    }
+    .button2 h6{
+        font-size: 3vw;
+    }
+
+    .headtext2 {
+        font-size: 6vw;
+    }
+
+    .headp {
+        font-size: 3vw;
+    }
+
+    .jobp {
+        font-size:3vw;
+    }
+
+    .button3 {
+        margin-left: 0vw;
+        width:27vw;
+        height: 5vh;
+       
+    }
+    .button3 h6{
+        font-size: 3vw;
+    }
+
+    .master {
+        width: 30vw;
+    }
+
+    .masterh h4 {
+        font-size: 6vw;
+    }
+
+    .yes {
+        margin-left: -5px;
+    }
+
+    #skills {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    #on2{
+        margin-left: 8vw;
+    }
+    #block{
+        padding: 2.8%;
+    }
+    
+
+    #row-skill{
+        margin-left: 0px;
+    }
+    .master-button{
+        margin-left: 14%;
+    }
+
+    #course {
+        width: 89%;
+    }
+    .masterh5{
+        font-size: 1rem;
+    }
+    #btn{
+        margin-right: 10vw;
+    }
+    .skills-btn{
+        margin-left: 5%;
+    }
+    .e-accounting-diploma{
+        width: 90vw;
+       
+    }
+
     .diploma-btn:hover {
         box-shadow: black 5px 4px;
         border: 2px solid black;
@@ -1154,6 +1653,87 @@ body {
         color: white;
     }
 
+    .diploma-btn {
+        font-size: 14px;
+    }
+
+    #diploma-btn2 {
+        width: 200px;
+        height: 40px;
+        font-size: 14px;
+    }
+
+    .diploma-btn-div {
+        text-align: center;
+    }
+    .button4{
+        margin-right: 0vw;
+        width:40vw;
+    }
+    .button4 h6{
+        font-size: 2vw;
+    }
+
+    .masterp {
+        font-size: 0.8rem;
+    }
+    .master-para{
+        font-size: 2.4vw;
+    }
+
+    .sy {
+        font-size: 14px;
+    }
+
+    .dbtn {
+        width: 30vw;
+        font-size: 2vw;
+    }
+
+    .syllabus {
+        margin-left: 2%;
+        border: 1px solid black;
+        border-radius: 30px;
+        width: 80vw;
+        padding: 1rem;
+    }
+
+    .coursep {
+        font-size: 0.6rem;
+    }
+    .book-demo{
+        font-size: 7vw;
+        font-weight: 300;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    #sir-img{
+        width: 100%;
+        height: 20%;
+    }
+
+    .coursep1 {
+        margin-top: 10%;
+        font-size: 0.8rem;
+    }
+
+    .ashu {
+        margin-top: 20px;
+    }
+
+    .sy {
+        margin-top: 20px;
+    }
+
+    .dbtn2 {
+        width: 30vw;
+        font-size: 3vw;
+    }
+
+    #gg {
+        margin-top: 28px;
+    }
+
     .kt {
         display: block;
     }
@@ -1161,11 +1741,179 @@ body {
     .project {
         display: none;
     }
+    .nav-div{
+        width: 100%;
+    }
+    .nav-img{
+        width: 23vw;
+        padding: 0.1vw;
+        height: auto;
+    }
 
+    .project2 {
+        border: 1px solid black;
+        border-radius: 20px;
+        margin-left: 20px;
+        width: 70vw;
+        background-color: #FFFAEA;
+    }
 
+    .projectimg {
+        width: 60vw;
+        margin: 14px 20px;
+        border-radius: 20px;
+    }
+    .master{
+        margin-left: 0px;
+    }
+
+    .project2 p {
+        margin-left: 20px;
+    }
+
+    .benefit-div {
+        background-color: #FFFAEA;
+        height: 840px;
+        border-radius: 20px;
+    }
+
+    .li {
+        color: rgb(0, 89, 255);
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+
+    .li2 {
+        color: black;
+        font-size: 16px;
+    }
+    .diploma-pay{
+        font-weight: 500;
+        margin-left: 100px;
+    }
+
+    .diploma-pay-2{
+        color: grey; font-weight: 500;margin-left: 15px;
+    }
+
+    .story-img2{
+        width: 330px;
+    }
+
+    .story-h3-3{
+        left: 25%;
+    }
+    .story-p{
+        left: 10%;
+    }
+    .story-div{
+        display: flex;
+    }
+   
+    .top-h5{
+        font-size: 2.6vw;
+    }
+    
+    .off-canvas{
+        margin: 3px 50px;
+    }
+    .benefits-icon{
+        width: 19vw;
+        border-radius: 19px;
+        height: 10vh;
+    }
+    .benefits-heading{
+        font-size: 5vw;
+    }
+    .benefits-text{
+        font-size: 3.5vw;
+        font-weight: 540;
+        font-family: sans-serif;
+    }
+    .benefits-para{
+        color: grey;
+        font-size: 3vw;
+        font-weight: 499
+    }
+    .abouth3{
+        color: white;font-size: 6vw;
+        font-family: sans-serif;
+        font-weight: 550;
+    }
+    .aboutp{
+        font-size: 4vw;
+        font-weight: 400;
+        text-align: justify;
+          
+    }
+    .abouttext-div{
+        text-align: center;
+    }
+    .about-div{
+        background-color: #042F72;
+        width: 100%;
+        height: 80%;
+    }
+    .story-main{
+        display: none;
+    }
+    .story-main2{
+        display: block;
+    }
+    .story-div{
+        text-align: center;
+        position: relative;
+    }
+    .story-h3-1{
+        font-size: 4vw;
+    }
+    .story-h3-2{
+        font-size: 5vw;
+    }
+    .story-h3-3{
+        font-size: 4.5vw;
+    }
+    .story-p{
+        font-size: 3.5vw;
+    }
+    .story-img1{
+        width: 43vw;
+        height: 11vh;
+        border-radius: 18px;
+    }
+    .story-img2{
+        width: 88vw;
+        height: 20vh;
+        border-radius: 18px;
+    }
+    .job-img{
+        width: 28vw;
+        height: 19vh;
+        object-fit: cover;
+        object-position: center;
+    }
+    .job-img2{
+        width: 28vw;
+        height: 19vh;
+        object-fit: cover;
+        object-position: center;
+
+    }
+    .certificateimg1{
+        margin-top: 18%;
+        width: 90%;
+        height: 70%;
+        border: 2px solid black;
+    }
+    .certificateimg2{
+        width: 92%;
+        height: 100%;
+        border: 2px solid black;
+    }
 }
 
-@media (max-width : 450px) {
+/* sm */
+@media (max-width : 578px) {
     #green{
         width: 7px;
         height: 7px;
@@ -1260,8 +2008,8 @@ body {
     #skillimg{
          margin-top: 20px;
          height: 75%;
-         padding: 0.5rem;
-        border-radius: 0px 22px 22px 0px;
+         padding: 0.3rem;
+        border-radius: 22px 22px 22px 22px;
     }
 
     .skills-row{
@@ -1413,6 +2161,11 @@ body {
         font-family: Verdana, Geneva, Tahoma, sans-serif;
     }
 
+    #sir-img{
+        width: 100%;
+        height: 20%;
+    }
+
     .coursep1 {
         margin-top: 10%;
         font-size: 0.8rem;
@@ -1551,6 +2304,11 @@ body {
     .abouttext-div{
         text-align: center;
     }
+    .about-div{
+        background-color: #042F72;
+        width: 100%;
+        height: 80%;
+    }
     .story-main{
         display: none;
     }
@@ -1582,6 +2340,486 @@ body {
         width: 88vw;
         height: 20vh;
         border-radius: 18px;
+    }
+    .job-img{
+        width: 37vw;
+        height: 19vh;
+        object-fit: cover;
+        object-position: center;
+    }
+    .job-img2{
+        width: 37vw;
+        height: 19vh;
+        object-fit: cover;
+        object-position: center;
+
+    }
+    .certificateimg1{
+        margin-top: 18%;
+        width: 90%;
+        height: 70%;
+        border: 2px solid black;
+    }
+    .certificateimg2{
+        width: 92%;
+        height: 100%;
+        border: 2px solid black;
+    }
+
+
+}
+
+@media (max-width : 450px) {
+    #green{
+        width: 7px;
+        height: 7px;
+    }
+    #red{
+        width: 7px;
+        height: 7px;
+    }
+    #blue{
+        width: 7px;
+        height: 7px;
+    }
+    .top-banner{
+        gap: 0.1px;
+    }
+    .buttonh h6{
+        margin-top: 3%;
+        font-size: 80%;
+    }
+    .buttonh:hover{
+        font-size: 90%;
+    }
+    .buttonh {
+        font-weight: bold;
+        margin-bottom: 10px;
+        width: 25vw;
+        height: 4vh;
+        border-radius: 20px;
+    
+    }
+
+    .top-h6{
+        font-size: 3rem;
+    }
+    
+    .heada{
+        font-size: 5vw;
+    }
+
+    .head {
+        height: 100%;
+        width: 100%;
+        padding: 0.5rem;
+        position: relative;
+    }
+
+    .headimg {
+        width: 90%;
+        margin-bottom: 10px;
+        margin-left: 5vw;
+    }
+
+
+    #hide {
+        display: block;
+        margin-top: 5%;
+        margin-right: -1%;
+    }
+    .canvastext{
+        color: black;
+        display: block;
+    }
+    .navbar a{
+        color: black;
+    }
+    .btn-close{
+        width: 20px;
+        height: 20px;
+        margin-top: 10px;
+    }
+
+    .headtext {
+        font-size: 6vw;
+    }
+    .job-heading-reason{
+        font-size: 5vw;
+    }
+    .job-heading h2{
+        font-size: 6vw;
+    }
+    .diploma-project-h3 {
+        margin: 0rem 1.3rem;
+        font-size: 4vw;
+    }
+    .student-btn{
+        width: 33vw;
+        height: 5vh;
+        font-size: 3vw;
+        margin-bottom: 1.7rem;
+    }
+
+    #skillimg{
+         margin-top: 20px;
+         height: 75%;
+         padding: 0.3rem;
+        border-radius: 22px 22px 22px 22px;
+    }
+
+    .skills-row{
+       border-radius: 25px;
+       
+        background-color: beige;
+        
+    }
+
+    .benefits-icon{
+        width: 13vw;
+        border-radius: 12px;
+        height: 7.7vh;
+    }
+    
+
+    .button2 {
+        width: 80%;
+        margin: 1rem;
+    }
+    .button2 h6{
+        font-size: 3vw;
+    }
+
+    .headtext2 {
+        font-size: 6vw;
+    }
+
+    .headp {
+        font-size: 3vw;
+    }
+
+    .jobp {
+        font-size:4vw;
+    }
+
+    .button3 {
+        margin-left: 0vw;
+        width:40vw;
+       
+    }
+    .button3 h6{
+        font-size: 3vw;
+    }
+
+    .master {
+        width: 30vw;
+    }
+
+    .masterh h4 {
+        font-size: 8vw;
+    }
+
+    .yes {
+        margin-left: -5px;
+    }
+
+    #skills {
+        width: 84vw;
+        margin-bottom: 20px;
+    }
+    #on2{
+        margin-left: 8vw;
+    }
+    #block{
+        padding: 2.8%;
+    }
+    
+
+    #row-skill{
+        margin-left: 0px;
+    }
+    .master-button{
+        margin-left: 14%;
+    }
+
+    #course {
+        width: 89%;
+    }
+    .masterh5{
+        font-size: 1rem;
+    }
+    #btn{
+        margin-right: 10vw;
+    }
+    .skills-btn{
+        margin-left: 5%;
+    }
+    .e-accounting-diploma{
+        width: 90vw;
+       
+    }
+
+    .diploma-btn:hover {
+        box-shadow: black 5px 4px;
+        border: 2px solid black;
+        background-color: #0B5ED7;
+        color: white;
+    }
+
+    .diploma-btn {
+        font-size: 14px;
+    }
+
+    #diploma-btn2 {
+        width: 200px;
+        height: 40px;
+        font-size: 14px;
+    }
+
+    .diploma-btn-div {
+        text-align: center;
+    }
+    .button4{
+        margin-right: 0vw;
+        width:40vw;
+    }
+    .button4 h6{
+        font-size: 3vw;
+    }
+
+    .masterp {
+        font-size: 0.8rem;
+    }
+
+    .sy {
+        font-size: 14px;
+    }
+
+    .dbtn {
+        width: 30vw;
+        font-size: 2vw;
+    }
+
+    .syllabus {
+        margin-left: 2%;
+        border: 1px solid black;
+        border-radius: 30px;
+        width: 80vw;
+        padding: 1rem;
+    }
+
+    .coursep {
+        font-size: 0.6rem;
+    }
+    .book-demo{
+        font-size: 7vw;
+        font-weight: 300;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    #sir-img{
+        width: 100%;
+        height: 20%;
+    }
+
+    .coursep1 {
+        margin-top: 10%;
+        font-size: 0.8rem;
+    }
+
+    .ashu {
+        margin-top: 20px;
+    }
+
+    .sy {
+        margin-top: 20px;
+    }
+
+    .dbtn2 {
+        width: 30vw;
+        font-size: 3vw;
+    }
+
+    #gg {
+        margin-top: 28px;
+    }
+
+    .kt {
+        display: block;
+    }
+
+    .project {
+        display: none;
+    }
+    .nav-div{
+        width: 100%;
+    }
+    .nav-img{
+        width: 34vw;
+        height: auto;
+    }
+
+    .project2 {
+        border: 1px solid black;
+        border-radius: 20px;
+        margin-left: 20px;
+        width: 70vw;
+        background-color: #FFFAEA;
+    }
+
+    .projectimg {
+        width: 60vw;
+        margin: 14px 20px;
+        border-radius: 20px;
+    }
+    .master{
+        margin-left: 0px;
+    }
+
+    .project2 p {
+        margin-left: 20px;
+    }
+
+    .benefit-div {
+        background-color: #FFFAEA;
+        height: 840px;
+        border-radius: 20px;
+    }
+
+    .li {
+        color: rgb(0, 89, 255);
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+
+    .li2 {
+        color: black;
+        font-size: 16px;
+    }
+    .diploma-pay{
+        font-weight: 500;
+        margin-left: 100px;
+    }
+
+    .diploma-pay-2{
+        color: grey; font-weight: 500;margin-left: 15px;
+    }
+
+    .story-img2{
+        width: 330px;
+    }
+
+    .story-h3-3{
+        left: 25%;
+    }
+    .story-p{
+        left: 10%;
+    }
+    .story-div{
+        display: flex;
+    }
+    .job-heading{
+        font-size: 2vw; 
+    }
+    .top-h5{
+        font-size: 13px;
+    }
+    
+    .off-canvas{
+        margin: 3px 50px;
+    }
+    .benefits-icon{
+        width: 19vw;
+        border-radius: 19px;
+        height: 10vh;
+    }
+    .benefits-heading{
+        font-size: 5vw;
+    }
+    .benefits-text{
+        font-size: 3.5vw;
+        font-weight: 540;
+        font-family: sans-serif;
+    }
+    .benefits-para{
+        color: grey;
+        font-size: 3vw;
+        font-weight: 499
+    }
+    .abouth3{
+        color: white;font-size: 6vw;
+        font-family: sans-serif;
+        font-weight: 550;
+    }
+    .aboutp{
+        font-size: 4vw;
+        font-weight: 400;
+        text-align: justify;
+          
+    }
+    .abouttext-div{
+        text-align: center;
+    }
+    .about-div{
+        background-color: #042F72;
+        width: 100%;
+        height: 80%;
+    }
+    .story-main{
+        display: none;
+    }
+    .story-main2{
+        display: block;
+    }
+    .story-div{
+        text-align: center;
+        position: relative;
+    }
+    .story-h3-1{
+        font-size: 4vw;
+    }
+    .story-h3-2{
+        font-size: 5vw;
+    }
+    .story-h3-3{
+        font-size: 4.5vw;
+    }
+    .story-p{
+        font-size: 3.5vw;
+    }
+    .story-img1{
+        width: 43vw;
+        height: 11vh;
+        border-radius: 18px;
+    }
+    .story-img2{
+        width: 88vw;
+        height: 20vh;
+        border-radius: 18px;
+    }
+    .job-img{
+        width: 37vw;
+        height: 19vh;
+        object-fit: cover;
+        object-position: center;
+    }
+    .job-img2{
+        width: 37vw;
+        height: 19vh;
+        object-fit: cover;
+        object-position: center;
+
+    }
+    .certificateimg1{
+        margin-top: 18%;
+        width: 90%;
+        height: 70%;
+        border: 2px solid black;
+    }
+    .certificateimg2{
+        width: 92%;
+        height: 100%;
+        border: 2px solid black;
     }
 
 }
