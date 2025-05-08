@@ -5,16 +5,7 @@ owl.owlCarousel({
     margin:10,
     responsive:{
         0:{
-            items:1
-        },
-        600:{
-            items:3
-        },            
-        960:{
-            items:5
-        },
-        1200:{
-            items:6
+            items:2
         }
     }
 });
@@ -26,3 +17,13 @@ owl.on('mousewheel', '.owl-stage', function (e) {
     }
     e.preventDefault();
 });
+
+
+
+$(function(){
+    $("dt").click(function(){
+      $(this).toggleClass("open");
+      if($(this).hasClass("open"))
+        $("dt").not(this).removeClass("open");
+    })
+  })

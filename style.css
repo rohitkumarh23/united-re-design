@@ -1,3 +1,8 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,600');
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
 * {
     margin: 0;
     padding: 0;
@@ -12,12 +17,12 @@
 
 }
 
-body {
+body{
     width: 100%;
     height: 100%;
-
-
-}
+    font-family: 'poppins';
+    
+  }
 
 .top {
     background-color: rgba(255, 255, 255, 0.938);
@@ -310,7 +315,7 @@ body {
 }
 
 .headtext {
-    font-size: 37px;
+    font-size: 4vw;
 }
 
 .headtext2 {
@@ -388,11 +393,16 @@ body {
     font-size: 20px;
 }
 
-.diploma-btn:hover {
+.diploma-btn:hover{
     box-shadow: black 5px 4px;
     border: 2px solid black;
     background-color: #0B5ED7;
     color: white;
+}
+
+.diploma-btn:active{
+    background-color: #0B5ED7;
+
 }
 
 #diploma-btn2 {
@@ -762,6 +772,110 @@ body {
     border-radius: 22px 22px 22px 22px;
 }
 
+.faq{
+    background-color: #042F73;
+    color: white;
+    border-radius: 20px 20px;
+}
+
+
+
+
+.subheading{
+  font-size:.9em;
+  margin-top:0;
+  text-transform:uppercase;
+}
+
+dl{
+  margin:30px auto 60px;
+  max-width:94%;
+}
+
+dt{
+  background:#042F72;
+  border-left:8px solid #1F2024;
+  color:#B6BCCC;
+  font-weight:600;
+  padding:15px;
+  position:relative;
+  text-align:left;
+  text-transform:uppercase;
+  transition: all .5s;
+}
+
+dt:after,dt:before{
+  content:"\f078";
+  font-family:fontAwesome;
+  position:absolute;
+  right:15px;
+  height:28px;
+  top:0;
+  bottom:0;
+  margin:auto;
+  
+  transition:all .7s ease-in-out;
+}
+
+dt:before{
+  opacity:0;
+  transition:all .4s ease-in-out;
+}
+
+dt:hover{
+  cursor:pointer;
+}
+
+dt + dd{
+  max-height:0;
+}
+
+dd{
+  background:#1C1C1C;
+  color:#edeff3;
+  margin:0;
+  overflow:hidden;
+  padding:1px 15px;
+  
+  transition: all .5s;
+}
+
+dt.open{
+  background:#0E0C0D;
+  border-color:#0E0C0D;
+  color:#edeff3;
+  margin:-5px;
+}
+
+dt.open:after{
+  transform:rotate(180deg) translateY(-2px);
+}
+dt.open:before{
+  opacity:1;
+  transform:rotate(-360deg) translateY(-3px);
+}
+
+dt.open + dd{
+  padding:15px 15px 30px;
+  margin:0 -5px;
+  max-height:200px;
+}
+
+.footer-main-div{
+    background-color: #042F73;
+    color: white;
+}
+
+.follow-us{
+    text-align: center;
+}
+
+.iframe{
+    width: 100%;
+    height: 50vh;
+    border-radius: 13px;
+}
+
 @keyframes appear {
     from {
         opacity: 0;
@@ -795,22 +909,22 @@ body {
 
     .head {
         width: 84vw;
-        height: 56vh;
+        height: 57vh;
     }
 
     .headtext {
-        font-size: 47px;
+        font-size: 1.7vw;
         margin-left: -80px;
     }
 
     .headtext2 {
-        font-size: 37px;
+        font-size: 1.3vw;
         margin-left: -80px;
     }
 
     .headp {
         text-align: justify;
-        font-size: 20px;
+        font-size: 0.9vw;
         margin-left: -80px;
     }
 
@@ -2299,9 +2413,9 @@ body {
     }
 
     #diploma-btn2 {
-        width: 200px;
-        height: 40px;
-        font-size: 14px;
+        width: 13vw;
+        height: 4.8vh;
+        font-size: 1.5vw;
     }
 
     .diploma-btn-div {
