@@ -17,12 +17,12 @@
 
 }
 
-body{
+body {
     width: 100%;
     height: 100%;
-    font-family: 'poppins';
-    
-  }
+    font-family: 'poppins', sans-serif;
+
+}
 
 .top {
     background-color: rgba(255, 255, 255, 0.938);
@@ -39,7 +39,7 @@ body{
     width: 10px;
     height: 10px;
     border-radius: 100%;
-  
+
     margin-top: 6px;
 }
 
@@ -394,14 +394,14 @@ body{
     font-size: 20px;
 }
 
-.diploma-btn:hover{
+.diploma-btn:hover {
     box-shadow: black 5px 4px;
     border: 2px solid black;
-    background-color: #0B5ED7;
+    background-color: #1E88E5;
     color: white;
 }
 
-.diploma-btn:active{
+.diploma-btn:active {
     background-color: #0B5ED7;
 
 }
@@ -417,7 +417,7 @@ body{
 #diploma-btn2:hover {
     box-shadow: black 5px 4px;
     border: 2px solid black;
-    background-color: #0B5ED7;
+    background-color: #1E88E5;
     color: white;
 }
 
@@ -482,7 +482,9 @@ body{
     background: linear-gradient(to left bottom, white, #52B3FE);
     color: #fff;
     border-radius: 15px;
-    width: 30vw;
+    width: 50vw;
+    margin-left: 10vw;
+    margin-bottom: 3vw;
     height: 5vh;
     border: 1px solid black;
     font-weight: bold;
@@ -518,17 +520,13 @@ body{
     background: linear-gradient(to left bottom, white, #52B3FE);
     color: #fff;
     border-radius: 15px;
-    width: 145px;
+    width: 15vw;
     height: 45px;
     border: 1px solid black;
-    font-weight: bold;
-    font-size: 17px;
+    margin-left: 1vw;
+    font-weight: 500;
+    font-size: 1vw;
 
-}
-
-.dbtn3:hover {
-    box-shadow: black 5px 4px;
-    color: white;
 }
 
 
@@ -641,7 +639,7 @@ body{
 
 .story-main {
 
-    background-image: url(images/background\ 3\ 1.png);
+    background-image: url(assest/home-assets/backgrounds/background\ 2.webp);
     background-repeat: no-repeat;
     background-size: cover;
     background-color: white;
@@ -653,7 +651,7 @@ body{
 }
 
 .story-img1 {
-    border-radius: 50px;
+    border-radius: 30px;
     box-shadow: black 7px 7px;
 }
 
@@ -666,8 +664,25 @@ body{
 .story-h3-1 {
     position: absolute;
     top: 13%;
+    left: 23%;
+    color: white;
+    font-weight: 560;
+}
+
+.story-h3-1-2 {
+    position: absolute;
+    top: 33%;
+    left: 26%;
+    color: white;
+    font-weight: 560;
+}
+
+.story-h3-1-3 {
+    position: absolute;
+    top: 53%;
     left: 20%;
     color: white;
+    font-weight: 560;
 }
 
 .story-h3-2 {
@@ -675,20 +690,47 @@ body{
     top: 25%;
     left: 16%;
     color: white;
+    font-weight: 560;
 }
 
 .story-h3-3 {
     position: absolute;
-    top: 20%;
-    left: 50%;
+    top: 10%;
+    margin-left: 5vw;
     color: white;
+    font-size: 2.2vw;
+}
+.story-h3-3-2 {
+    position: absolute;
+    top: 25%;
+    left: 45%;
+    color: white;
+    font-size: 2.2vw;
+}
+
+.story-h3-img {
+    position: absolute;
+    top: 43%;
+    left: 39%;
+    
 }
 
 .story-p {
     position: absolute;
     top: 59%;
-    left: 22%;
+    margin-left: 3%;
     color: white;
+    font-size: 3vw;
+    font-weight: 500;
+}
+.story-p2 {
+    position: absolute;
+    top: 79%;
+    margin-left: 29%;
+    left: 5%;
+    color: white;
+    font-size: 1.1vw;
+    font-weight: 500;
 }
 
 #diploma-img {
@@ -708,7 +750,9 @@ body{
     height: auto;
     border: 1px solid black;
     border-radius: 15px;
+    font-size: 0.8vw;
 }
+
 
 .student-btn:hover {
     box-shadow: black 5px 4px;
@@ -732,14 +776,13 @@ body{
 .benefits-text {
     padding: 1rem 0rem;
     font-size: 1.2rem;
-    font-weight: 550;
-    font-family: sans-serif;
+    font-weight: 400;
 }
 
 .benefits-para {
     color: grey;
     font-size: 1.1rem;
-    font-weight: 499;
+    font-weight: 400;
     margin: 0.9rem 0rem;
 }
 
@@ -773,7 +816,7 @@ body{
     border-radius: 22px 22px 22px 22px;
 }
 
-.faq{
+.faq {
     background-color: #042F73;
     color: white;
     border-radius: 20px 20px;
@@ -782,99 +825,143 @@ body{
 
 
 
-.subheading{
-  font-size:.9em;
-  margin-top:0;
-  text-transform:uppercase;
+.subheading {
+    font-size: .9em;
+    margin-top: 0;
+    text-transform: uppercase;
 }
 
-dl{
-  margin:30px auto 60px;
-  max-width:94%;
+dl {
+    margin: 30px auto 60px;
+    max-width: 94%;
 }
 
-dt{
-  background:#042F72;
-  border-left:8px solid #1F2024;
-  color:#B6BCCC;
-  font-weight:600;
-  padding:15px;
-  position:relative;
-  text-align:left;
-  text-transform:uppercase;
-  transition: all .5s;
+dt {
+    background: #042F72;
+    border-left: 8px solid #1F2024;
+    color: #B6BCCC;
+    font-weight: 600;
+    padding: 15px;
+    position: relative;
+    text-align: left;
+    text-transform: uppercase;
+    transition: all .5s;
 }
 
-dt:after,dt:before{
-  content:"\f078";
-  font-family:fontAwesome;
-  position:absolute;
-  right:15px;
-  height:28px;
-  top:0;
-  bottom:0;
-  margin:auto;
-  
-  transition:all .7s ease-in-out;
+dt:after,
+dt:before {
+    content: "\f078";
+    font-family: fontAwesome;
+    position: absolute;
+    right: 15px;
+    height: 28px;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+
+    transition: all .7s ease-in-out;
 }
 
-dt:before{
-  opacity:0;
-  transition:all .4s ease-in-out;
+dt:before {
+    opacity: 0;
+    transition: all .4s ease-in-out;
 }
 
-dt:hover{
-  cursor:pointer;
+dt:hover {
+    cursor: pointer;
 }
 
-dt + dd{
-  max-height:0;
+dt+dd {
+    max-height: 0;
 }
 
-dd{
-  background:#1C1C1C;
-  color:#edeff3;
-  margin:0;
-  overflow:hidden;
-  padding:1px 15px;
-  
-  transition: all .5s;
+dd {
+    background: #1C1C1C;
+    color: #edeff3;
+    margin: 0;
+    overflow: hidden;
+    padding: 1px 15px;
+
+    transition: all .5s;
 }
 
-dt.open{
-  background:#0E0C0D;
-  border-color:#0E0C0D;
-  color:#edeff3;
-  margin:-5px;
+dt.open {
+    background: #0E0C0D;
+    border-color: #0E0C0D;
+    color: #edeff3;
+    margin: -5px;
 }
 
-dt.open:after{
-  transform:rotate(180deg) translateY(-2px);
-}
-dt.open:before{
-  opacity:1;
-  transform:rotate(-360deg) translateY(-3px);
+dt.open:after {
+    transform: rotate(180deg) translateY(-2px);
 }
 
-dt.open + dd{
-  padding:15px 15px 30px;
-  margin:0 -5px;
-  max-height:200px;
+dt.open:before {
+    opacity: 1;
+    transform: rotate(-360deg) translateY(-3px);
 }
 
-.footer-main-div{
+dt.open+dd {
+    padding: 15px 15px 30px;
+    margin: 0 -5px;
+    max-height: 200px;
+}
+
+.footer-main-div {
     background-color: #042F73;
     color: white;
+    font-size: 1vw;
 }
 
-.follow-us{
+.follow-us {
     text-align: center;
+    text-decoration: underline;
+    cursor: pointer;
 }
 
-.iframe{
+.iframe {
     width: 100%;
     height: 50vh;
     border-radius: 13px;
+}
+
+.nav-button:hover {
+    box-shadow: black 5px 5px;
+
+}
+
+.nav-button {
+    font-weight: bold;
+    margin-bottom: 10px;
+    width: 7vw;
+    height: 4vh;
+    border-radius: 20px;
+
+}
+
+.icon{
+    font-size: 1.8vw;
+}
+.footer-underline{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.india{
+    background-color: #212529;
+    padding: 0.1vw 1vw;
+    border-radius: 5px;
+}
+.footer-madeinindia1{
+    color: orange;
+}
+.footer-madeinindia2{
+    color: white;
+}
+.footer-madeinindia3{
+    color: green;
+}
+.heart{
+    color: #F92F8F;
 }
 
 @keyframes appear {
@@ -1034,7 +1121,8 @@ dt.open + dd{
     .project {
         border: 1px solid black;
         border-radius: 20px;
-        width: 350px;
+        width: 20vw;
+        height: 18.5vw;
         background-color: #FFFAEA;
     }
 
@@ -1118,6 +1206,7 @@ dt.open + dd{
         font-size: 0.9vw;
     }
 
+
 }
 
 @media (max-width : 1199px) {
@@ -1162,6 +1251,7 @@ dt.open + dd{
         border-radius: 20px;
 
     }
+
     .nav-button {
         font-weight: bold;
         margin-bottom: 10px;
@@ -1249,9 +1339,7 @@ dt.open + dd{
 
     .skills-row {
         border-radius: 25px;
-
         background-color: beige;
-
     }
 
     .skills-h5 {
@@ -1395,7 +1483,8 @@ dt.open + dd{
         width: 15vw;
         font-size: 1.3vw;
     }
-    .navbar a{
+
+    .navbar a {
         margin: 10px 25px;
     }
 
@@ -1439,10 +1528,7 @@ dt.open + dd{
         width: 100%;
         font-size: 1.2vw;
     }
-    .dbtn3 {
-        width: 100%;
-        font-size: 1.2vw;
-    }
+
 
     #gg {
         margin-top: 28px;
@@ -1552,7 +1638,7 @@ dt.open + dd{
     .benefits-text {
         font-size: 1.6vw;
         font-weight: 540;
-        font-family: sans-serif;
+
     }
 
     .benefits-para {
@@ -1564,7 +1650,6 @@ dt.open + dd{
     .abouth3 {
         color: white;
         font-size: 2vw;
-        font-family: sans-serif;
         font-weight: 550;
     }
 
@@ -2077,7 +2162,7 @@ dt.open + dd{
     .benefits-text {
         font-size: 3.5vw;
         font-weight: 540;
-        font-family: sans-serif;
+
     }
 
     .benefits-para {
@@ -2089,7 +2174,6 @@ dt.open + dd{
     .abouth3 {
         color: white;
         font-size: 6vw;
-        font-family: sans-serif;
         font-weight: 550;
     }
 
@@ -2178,8 +2262,13 @@ dt.open + dd{
         height: 100%;
         border: 2px solid black;
     }
+
     #close {
         margin-left: 35vw;
+    }
+
+    .skills-h5 {
+        font-size: 2.5vw;
     }
 }
 
@@ -2592,7 +2681,6 @@ dt.open + dd{
     .benefits-text {
         font-size: 3.5vw;
         font-weight: 540;
-        font-family: sans-serif;
     }
 
     .benefits-para {
@@ -2604,7 +2692,6 @@ dt.open + dd{
     .abouth3 {
         color: white;
         font-size: 6vw;
-        font-family: sans-serif;
         font-weight: 550;
     }
 
@@ -2693,8 +2780,13 @@ dt.open + dd{
         height: 100%;
         border: 2px solid black;
     }
+
     #close {
         margin-left: 39vw;
+    }
+
+    .skills-h5 {
+        font-size: 4vw;
     }
 }
 
@@ -3104,7 +3196,6 @@ dt.open + dd{
     .benefits-text {
         font-size: 3.5vw;
         font-weight: 540;
-        font-family: sans-serif;
     }
 
     .benefits-para {
@@ -3116,7 +3207,6 @@ dt.open + dd{
     .abouth3 {
         color: white;
         font-size: 6vw;
-        font-family: sans-serif;
         font-weight: 550;
     }
 
@@ -3205,8 +3295,13 @@ dt.open + dd{
         height: 100%;
         border: 2px solid black;
     }
+
     #close {
         margin-left: 50vw;
+    }
+
+    .skills-h5 {
+        font-size: 4.5vw;
     }
 
 
@@ -3216,9 +3311,9 @@ dt.open + dd{
     .top-banner {
         display: flex;
         flex-direction: row;
-       
+
     }
-    
+
     #red {
         background-color: #f44336;
         width: 2vw;
@@ -3226,7 +3321,7 @@ dt.open + dd{
         border-radius: 100%;
         margin-top: 6px;
     }
-    
+
     #green {
         background-color: #4caf50;
         width: 2vw;
@@ -3234,15 +3329,15 @@ dt.open + dd{
         border-radius: 100%;
         margin-top: 6px;
     }
-    
+
     #blue {
         background-color: #2196f3;
         width: 2vw;
         height: 2vw;
         border-radius: 100%;
-      
+
     }
-     
+
 
     .buttonh h6 {
         margin-top: 3%;
@@ -3325,7 +3420,7 @@ dt.open + dd{
     .student-btn {
         width: 33vw;
         height: 5vh;
-        font-size: 3vw;
+        font-size: 2.9vw;
         margin-bottom: 1.7rem;
     }
 
@@ -3618,7 +3713,7 @@ dt.open + dd{
     .off-canvas {
         padding: 0vw 4vw;
     }
-    
+
 
     .benefits-icon {
         width: 19vw;
@@ -3633,7 +3728,6 @@ dt.open + dd{
     .benefits-text {
         font-size: 3.5vw;
         font-weight: 540;
-        font-family: sans-serif;
     }
 
     .benefits-para {
@@ -3645,7 +3739,6 @@ dt.open + dd{
     .abouth3 {
         color: white;
         font-size: 6vw;
-        font-family: sans-serif;
         font-weight: 550;
     }
 
@@ -3735,11 +3828,16 @@ dt.open + dd{
         border: 2px solid black;
     }
 
-    .skills-h5{
+    .skills-h5 {
         font-size: 5.5vw;
     }
+
     #close {
         margin-left: 70vw;
+    }
+
+    .button2 h6 {
+        font-size: 3vw;
     }
 
 }
