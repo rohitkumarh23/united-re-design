@@ -288,7 +288,7 @@ body {
 
 
 #btn {
-    margin-top: 20px;
+    margin-top: 13px;
     margin-right: 30px;
 }
 
@@ -700,6 +700,7 @@ body {
     color: white;
     font-size: 2.2vw;
 }
+
 .story-h3-3-2 {
     position: absolute;
     top: 25%;
@@ -712,7 +713,7 @@ body {
     position: absolute;
     top: 43%;
     left: 39%;
-    
+
 }
 
 .story-p {
@@ -723,6 +724,7 @@ body {
     font-size: 3vw;
     font-weight: 500;
 }
+
 .story-p2 {
     position: absolute;
     top: 79%;
@@ -939,30 +941,40 @@ dt.open+dd {
 
 }
 
-.icon{
+.icon {
     font-size: 1.8vw;
 }
-.footer-underline{
+
+.footer-underline {
     text-decoration: underline;
     cursor: pointer;
 }
-.india{
+
+.india {
     background-color: #212529;
     padding: 0.1vw 1vw;
     border-radius: 5px;
 }
-.footer-madeinindia1{
+
+.footer-madeinindia1 {
     color: orange;
 }
-.footer-madeinindia2{
+
+.footer-madeinindia2 {
     color: white;
 }
-.footer-madeinindia3{
+
+.footer-madeinindia3 {
     color: green;
 }
-.heart{
+
+.heart {
     color: #F92F8F;
 }
+.about-us-column{
+    color: white;
+}
+
 
 @keyframes appear {
     from {
@@ -2368,13 +2380,13 @@ dt.open+dd {
 
     .diploma-project-h3 {
         margin: 0rem 1.3rem;
-        font-size: 4vw;
+        font-size: 2.5vw;
     }
 
     .student-btn {
-        width: 33vw;
+        width: 27vw;
         height: 5vh;
-        font-size: 3vw;
+        font-size: 1.9vw;
         margin-bottom: 1.7rem;
     }
 
@@ -2499,7 +2511,7 @@ dt.open+dd {
     }
 
     #diploma-btn2 {
-        width: 13vw;
+        width: 29vw;
         height: 4.8vh;
         font-size: 1.5vw;
     }
@@ -2520,6 +2532,10 @@ dt.open+dd {
     .masterp {
         font-size: 0.8rem;
     }
+    .dbtn4{
+        width: 40vw;
+        font-size: 2vw;
+    }
 
     .master-para {
         font-size: 2.4vw;
@@ -2530,15 +2546,15 @@ dt.open+dd {
     }
 
     .dbtn {
-        width: 30vw;
-        font-size: 2vw;
+        width: 18vw;
+        font-size: 1.3vw;
     }
 
     .syllabus {
         margin-left: 2%;
         border: 1px solid black;
         border-radius: 30px;
-        width: 80vw;
+        width: 64vw;
         padding: 1rem;
     }
 
@@ -2547,7 +2563,7 @@ dt.open+dd {
     }
 
     .book-demo {
-        font-size: 7vw;
+        font-size: 4vw;
         font-weight: 300;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
     }
@@ -2571,8 +2587,8 @@ dt.open+dd {
     }
 
     .dbtn2 {
-        width: 30vw;
-        font-size: 3vw;
+        width: 25vw;
+        font-size: 1.9vw;
     }
 
     #gg {
@@ -2601,12 +2617,12 @@ dt.open+dd {
         border: 1px solid black;
         border-radius: 20px;
         margin-left: 20px;
-        width: 70vw;
+        width: 60vw;
         background-color: #FFFAEA;
     }
 
     .projectimg {
-        width: 60vw;
+        width: 55vw;
         margin: 14px 20px;
         border-radius: 20px;
     }
@@ -2617,6 +2633,7 @@ dt.open+dd {
 
     .project2 p {
         margin-left: 20px;
+        font-size: 3vw;
     }
 
     .benefit-div {
@@ -3104,14 +3121,14 @@ dt.open+dd {
     }
 
     .nav-img {
-        width: 34vw;
+        width: 24vw;
         height: auto;
     }
 
     .project2 {
         border: 1px solid black;
         border-radius: 20px;
-        margin-left: 20px;
+        margin-left: 6.5vw;
         width: 70vw;
         background-color: #FFFAEA;
     }
@@ -3303,6 +3320,22 @@ dt.open+dd {
     .skills-h5 {
         font-size: 4.5vw;
     }
+    .footerp{
+        font-size: 2.5vw;
+    }
+    .icon{
+        font-size: 5.5vw;
+    }
+    .footer-underline{
+        font-size: 3.9vw;
+        font-weight: 590;
+    }
+    .footerp2{
+        font-size: 3vw;
+    }
+    .india{
+        font-size: 3vw;
+    }
 
 
 }
@@ -3340,8 +3373,8 @@ dt.open+dd {
 
 
     .buttonh h6 {
-        margin-top: 3%;
-        font-size: 80%;
+        margin-top: 2.5%;
+        font-size: 2.9vw;
     }
 
     .buttonh:hover {
@@ -3357,9 +3390,7 @@ dt.open+dd {
 
     }
 
-    .top-h6 {
-        font-size: 3rem;
-    }
+
 
     .heada {
         font-size: 5vw;
@@ -3423,6 +3454,9 @@ dt.open+dd {
         font-size: 2.9vw;
         margin-bottom: 1.7rem;
     }
+    .master-para {
+        font-size: 3vw;
+    }
 
     #skillimg {
         margin-top: 20px;
@@ -3451,7 +3485,7 @@ dt.open+dd {
     }
 
     .button2 h6 {
-        font-size: 3vw;
+        font-size: 2.9vw;
     }
 
     .headtext2 {
@@ -3477,7 +3511,8 @@ dt.open+dd {
     }
 
     .master {
-        width: 30vw;
+        width: 34vw;
+        margin-left: 0vw;
     }
 
     .masterh h4 {
@@ -3515,7 +3550,7 @@ dt.open+dd {
     }
 
     .masterh5 {
-        font-size: 1rem;
+        font-size: 3.8vw;
     }
 
     #btn {
@@ -3539,13 +3574,13 @@ dt.open+dd {
     }
 
     .diploma-btn {
-        font-size: 14px;
+        font-size: 3.2vw;
     }
 
     #diploma-btn2 {
-        width: 200px;
+        width: 60vw;
         height: 40px;
-        font-size: 14px;
+        font-size: 3.2vw;
     }
 
     .diploma-btn-div {
@@ -3562,7 +3597,7 @@ dt.open+dd {
     }
 
     .masterp {
-        font-size: 0.8rem;
+        font-size: 3.6vw;
     }
 
     .sy {
@@ -3595,6 +3630,11 @@ dt.open+dd {
     #sir-img {
         width: 100%;
         height: 20%;
+    }
+
+    .what-skills-h{
+        font-weight: bold;
+        font-size: 4.3vw;
     }
 
     .coursep1 {
@@ -3650,9 +3690,6 @@ dt.open+dd {
         border-radius: 20px;
     }
 
-    .master {
-        margin-left: 0px;
-    }
 
     .project2 p {
         margin-left: 20px;
@@ -3677,7 +3714,8 @@ dt.open+dd {
 
     .diploma-pay {
         font-weight: 500;
-        margin-left: 100px;
+        margin-left: 40%;
+        font-size: 3.5vw;
     }
 
     .diploma-pay-2 {
@@ -3722,7 +3760,8 @@ dt.open+dd {
     }
 
     .benefits-heading {
-        font-size: 5vw;
+        font-size: 6vw;
+        font-weight: 500;
     }
 
     .benefits-text {
@@ -3733,7 +3772,8 @@ dt.open+dd {
     .benefits-para {
         color: grey;
         font-size: 3vw;
-        font-weight: 499
+        font-weight: 499;
+        margin: 0.2rem 0rem;
     }
 
     .abouth3 {
@@ -3747,6 +3787,9 @@ dt.open+dd {
         font-weight: 400;
         text-align: justify;
 
+    }
+    .about-us-column h3{
+        text-align: center  ;
     }
 
     .abouttext-div {
@@ -3835,10 +3878,23 @@ dt.open+dd {
     #close {
         margin-left: 70vw;
     }
-
-    .button2 h6 {
+    .footerp{
+        font-size: 4vw;
+    }
+    .icon{
+        font-size: 6vw;
+    }
+    .footer-underline{
+        font-size: 3.9vw;
+        font-weight: 590;
+    }
+    .footerp2{
         font-size: 3vw;
     }
+    .india{
+        font-size: 3vw;
+    }
+
 
 }
 
