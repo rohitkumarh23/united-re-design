@@ -35,16 +35,16 @@ body{
 }
 
 #red {
-    background-color: red;
+    background-color: #f44336;
     width: 10px;
     height: 10px;
     border-radius: 100%;
-    margin-left: 20px;
+  
     margin-top: 6px;
 }
 
 #green {
-    background-color: green;
+    background-color: #4caf50;
     width: 10px;
     height: 10px;
     border-radius: 100%;
@@ -52,7 +52,7 @@ body{
 }
 
 #blue {
-    background-color: blue;
+    background-color: #2196f3;
     width: 10px;
     height: 10px;
     border-radius: 100%;
@@ -273,8 +273,9 @@ body{
 }
 
 .off-canvas {
-    margin: 10px 50px;
-    gap: 20px;
+    gap: 1px;
+    position: relative;
+    overflow: hidden;
 
 }
 
@@ -300,7 +301,7 @@ body{
 }
 
 #close {
-    margin-left: 270px;
+    margin-left: 70vw;
 }
 
 .head {
@@ -1201,7 +1202,7 @@ dt.open + dd{
 
     .canvastext {
         color: black;
-        display: block;
+        display: none;
     }
 
     .navbar a {
@@ -1536,10 +1537,6 @@ dt.open + dd{
 
     .top-h5 {
         font-size: 1.7vw;
-    }
-
-    .off-canvas {
-        margin: 3px 50px;
     }
 
     .benefits-icon {
@@ -2066,9 +2063,6 @@ dt.open + dd{
         font-size: 2.6vw;
     }
 
-    .off-canvas {
-        margin: 3px 50px;
-    }
 
     .benefits-icon {
         width: 19vw;
@@ -2183,6 +2177,9 @@ dt.open + dd{
         width: 92%;
         height: 100%;
         border: 2px solid black;
+    }
+    #close {
+        margin-left: 35vw;
     }
 }
 
@@ -2581,9 +2578,6 @@ dt.open + dd{
         font-size: 2.6vw;
     }
 
-    .off-canvas {
-        margin: 3px 50px;
-    }
 
     .benefits-icon {
         width: 19vw;
@@ -2698,6 +2692,9 @@ dt.open + dd{
         width: 92%;
         height: 100%;
         border: 2px solid black;
+    }
+    #close {
+        margin-left: 39vw;
     }
 }
 
@@ -3093,9 +3090,6 @@ dt.open + dd{
         font-size: 13px;
     }
 
-    .off-canvas {
-        margin: 3px 50px;
-    }
 
     .benefits-icon {
         width: 19vw;
@@ -3211,29 +3205,44 @@ dt.open + dd{
         height: 100%;
         border: 2px solid black;
     }
+    #close {
+        margin-left: 50vw;
+    }
 
 
 }
 
 @media (max-width : 450px) {
-    #green {
-        width: 7px;
-        height: 7px;
-    }
-
-    #red {
-        width: 7px;
-        height: 7px;
-    }
-
-    #blue {
-        width: 7px;
-        height: 7px;
-    }
-
     .top-banner {
-        gap: 0.1px;
+        display: flex;
+        flex-direction: row;
+       
     }
+    
+    #red {
+        background-color: #f44336;
+        width: 2vw;
+        height: 2vw;
+        border-radius: 100%;
+        margin-top: 6px;
+    }
+    
+    #green {
+        background-color: #4caf50;
+        width: 2vw;
+        height: 2vw;
+        border-radius: 100%;
+        margin-top: 6px;
+    }
+    
+    #blue {
+        background-color: #2196f3;
+        width: 2vw;
+        height: 2vw;
+        border-radius: 100%;
+      
+    }
+     
 
     .buttonh h6 {
         margin-top: 3%;
@@ -3291,8 +3300,8 @@ dt.open + dd{
     }
 
     .btn-close {
-        width: 20px;
-        height: 20px;
+        width: 4vw;
+        height: 4vw;
         margin-top: 10px;
     }
 
@@ -3607,8 +3616,9 @@ dt.open + dd{
     }
 
     .off-canvas {
-        margin: 3px 50px;
+        padding: 0vw 4vw;
     }
+    
 
     .benefits-icon {
         width: 19vw;
@@ -3727,6 +3737,9 @@ dt.open + dd{
 
     .skills-h5{
         font-size: 5.5vw;
+    }
+    #close {
+        margin-left: 70vw;
     }
 
 }
