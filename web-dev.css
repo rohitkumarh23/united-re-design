@@ -123,21 +123,6 @@ body {
     text-decoration: underline;
 }
 
-.master-div {
-    background-image: url(assest/home-assets/backgrounds/background\ 1.webp);
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.master-para {
-    font-size: 0.9rem;
-    color: white;
-}
-
-.master-button {
-    margin-left: 20px;
-}
-
 .skills-h5 {
     font-size: 26px;
     font-weight: bold;
@@ -341,33 +326,8 @@ body {
     font-size: 22px;
 }
 
-.master {
-    box-shadow: black 2px 2px 6px;
-    border-radius: 19px;
-    width: 100%;
-    height: 100%;
-    background-color: white;
-    overflow: hidden;
-}
 
-.master:hover {
-    transform: translateY(-2.1rem);
-    transition: transform 0.5s;
 
-}
-
-.masterp {
-    color: rgba(16, 124, 196, 0.842);
-    font-size: 0.8vw;
-
-}
-
-.masterh h4 {
-    font-weight: bold;
-    font-size: 4rem;
-    color: white;
-
-}
 
 .yes {
     margin-left: 110px;
@@ -742,9 +702,6 @@ body {
     margin-bottom: 10px;
 }
 
-.master-main-div {
-    margin-top: 10px;
-}
 
 .student-btn {
     background-color: #52B3FE;
@@ -1075,27 +1032,12 @@ dt.open+dd {
     }
 
 
-    .masterh {
-        text-align: start;
-    }
-
-    .master {
-        width: 10.7vw;
-        height: 23vh;
-    }
+   
+   
 
 
-    .masterh h4 {
-        font-size: 2vw;
-    }
-
-    .masterh5 {
-        font-size: 1vw;
-    }
-
-    .master-para {
-        font-size: 1.4vw;
-    }
+   
+    
 
     .yes {
         margin-left: 110px;
@@ -1461,17 +1403,10 @@ dt.open+dd {
         font-size: 2vw;
     }
 
-    .master {
-        width: 17.6vw;
-    }
+    
 
-    .master-para {
-        font-size: 1.7vw;
-    }
-
-    .masterh h4 {
-        font-size: 3vw;
-    }
+    
+    
 
     .yes {
         width: 19.7vw;
@@ -1495,17 +1430,12 @@ dt.open+dd {
         margin-left: 0px;
     }
 
-    .master-button {
-        margin-left: 14%;
-    }
-
+    
     #course {
         width: 89%;
     }
 
-    .masterh5 {
-        font-size: 1rem;
-    }
+    
 
     .skills-btn {
         margin-left: 5%;
@@ -1547,10 +1477,7 @@ dt.open+dd {
         font-size: 1.7vw;
     }
 
-    .masterp {
-        font-size: 0.8rem;
-    }
-
+    
     .sy {
         font-size: 1.6vw;
     }
@@ -1641,9 +1568,7 @@ dt.open+dd {
         border-radius: 20px;
     }
 
-    .master {
-        margin-left: 0px;
-    }
+    
 
     .project2 p {
         margin-left: 20px;
@@ -2005,13 +1930,8 @@ dt.open+dd {
         font-size: 1.8vw;
     }
 
-    .master {
-        width: 24vw;
-    }
-
-    .masterh h4 {
-        font-size: 6vw;
-    }
+    
+  
 
     .yes {
         margin-left: -5px;
@@ -2035,17 +1955,13 @@ dt.open+dd {
         margin-left: 0px;
     }
 
-    .master-button {
-        margin-left: 14%;
-    }
+    
 
     #course {
         width: 89%;
     }
 
-    .masterh5 {
-        font-size: 1rem;
-    }
+  
 
     #btn {
         margin-right: 10vw;
@@ -2091,13 +2007,9 @@ dt.open+dd {
         font-size: 2vw;
     }
 
-    .masterp {
-        font-size: 0.8rem;
-    }
+  
 
-    .master-para {
-        font-size: 2.4vw;
-    }
+   
 
     .sy {
         font-size: 14px;
@@ -2185,9 +2097,7 @@ dt.open+dd {
         border-radius: 20px;
     }
 
-    .master {
-        margin-left: 0px;
-    }
+    
 
     .project2 p {
         margin-left: 20px;
@@ -2536,13 +2446,9 @@ dt.open+dd {
         font-size: 2vw;
     }
 
-    .master {
-        width: 30vw;
-    }
+    
 
-    .masterh h4 {
-        font-size: 6vw;
-    }
+    
 
     .yes {
         margin-left: -5px;
@@ -2569,17 +2475,13 @@ dt.open+dd {
         margin-left: 0px;
     }
 
-    .master-button {
-        margin-left: 14%;
-    }
+    
 
     #course {
         width: 89%;
     }
 
-    .masterh5 {
-        font-size: 1rem;
-    }
+  
 
     #btn {
         margin-right: 10vw;
@@ -2624,17 +2526,13 @@ dt.open+dd {
         font-size: 2vw;
     }
 
-    .masterp {
-        font-size: 0.8rem;
-    }
+    
     .dbtn4{
         width: 30vw;
         font-size: 1vw;
     }
 
-    .master-para {
-        font-size: 2.4vw;
-    }
+    
 
     .sy {
         font-size: 14px;
@@ -2731,9 +2629,7 @@ dt.open+dd {
         border-radius: 20px;
     }
 
-    .master {
-        margin-left: 0px;
-    }
+   
 
     .project2 p {
         margin-left: 20px;
@@ -3063,13 +2959,8 @@ dt.open+dd {
         font-size: 3vw;
     }
 
-    .master {
-        width: 30vw;
-    }
 
-    .masterh h4 {
-        font-size: 8vw;
-    }
+    
 
     .yes {
         margin-left: -5px;
@@ -3093,17 +2984,13 @@ dt.open+dd {
         margin-left: 0px;
     }
 
-    .master-button {
-        margin-left: 14%;
-    }
+    
 
     #course {
         width: 89%;
     }
 
-    .masterh5 {
-        font-size: 1rem;
-    }
+   
 
     #btn {
         margin-right: 10vw;
@@ -3148,9 +3035,7 @@ dt.open+dd {
         font-size: 3vw;
     }
 
-    .masterp {
-        font-size: 0.8rem;
-    }
+    
 
     .sy {
         font-size: 14px;
@@ -3237,9 +3122,7 @@ dt.open+dd {
         border-radius: 20px;
     }
 
-    .master {
-        margin-left: 0px;
-    }
+   
 
     .project2 p {
         margin-left: 20px;
@@ -3552,9 +3435,7 @@ dt.open+dd {
         font-size: 2.9vw;
         margin-bottom: 1.7rem;
     }
-    .master-para {
-        font-size: 3vw;
-    }
+    
 
     #skillimg {
         margin-top: 20px;
@@ -3611,14 +3492,9 @@ dt.open+dd {
         font-size: 3vw;
     }
 
-    .master {
-        width: 34vw;
-        margin-left: 0vw;
-    }
+    
 
-    .masterh h4 {
-        font-size: 8vw;
-    }
+  
 
     .yes {
         margin-left: -5px;
@@ -3642,9 +3518,7 @@ dt.open+dd {
         margin-left: 0px;
     }
 
-    .master-button {
-        margin-left: 14%;
-    }
+   
      .dbtn4{
         width: 42vw;
         font-size: 2.5vw;
@@ -3654,11 +3528,7 @@ dt.open+dd {
         width: 89%;
     }
 
-    .masterh5 {
-        font-size: 3.8vw;
-    }
-
-    #btn {
+   
         margin-right: 10vw;
     }
 
@@ -3701,9 +3571,7 @@ dt.open+dd {
         font-size: 3vw;
     }
 
-    .masterp {
-        font-size: 3.6vw;
-    }
+   
 
     .sy {
         font-size: 14px;
