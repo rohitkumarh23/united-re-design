@@ -404,10 +404,7 @@ body {
     color: white;
 }
 
-.diploma-btn:active {
-    background-color: #0B5ED7;
 
-}
 
 #diploma-btn2 {
     border: 1px solid black;
@@ -980,6 +977,7 @@ dt.open+dd {
 }
 
 
+
 @keyframes appear {
     from {
         opacity: 0;
@@ -1035,7 +1033,7 @@ dt.open+dd {
     .nav-img{
         width: 8.9vw;
         margin-bottom: 0.5vw ;
-        height: auto;
+        height: 3.rem;
     }
    
 
@@ -1109,6 +1107,9 @@ dt.open+dd {
     .yes {
         margin-left: px;
         width: 10.7vw;
+    }
+    .navbar a{
+        margin: 0.7rem 1.3rem;
     }
 
 
@@ -1821,6 +1822,10 @@ dt.open+dd {
         background-color: #FFFAEA;
     }
 
+    .headp{
+        font-size: 1rem;
+    }
+
 }
 
 @media (max-width : 992px) {
@@ -1866,7 +1871,7 @@ dt.open+dd {
     }
 
     .heada {
-        font-size: 5vw;
+        font-size: 2vw;
     }
 
     .head {
@@ -1877,9 +1882,12 @@ dt.open+dd {
     }
 
     .headimg {
-        width: 90%;
-        margin-bottom: 50px;
+       
+        width: 100%;
+        height: 70%;
+        margin-bottom: 10px;
         margin-left: 5vw;
+
     }
 
 
@@ -1905,7 +1913,7 @@ dt.open+dd {
     }
 
     .headtext {
-        font-size: 6vw;
+        font-size: 3.3vw;
     }
 
     .job-heading-reason {
@@ -1913,24 +1921,24 @@ dt.open+dd {
     }
 
     .job-heading h2 {
-        font-size: 4.7vw;
+        font-size: 2.7vw;
     }
 
     .diploma-project-h3 {
         margin: 0rem 1.3rem;
-        font-size: 4vw;
+        font-size: 2.5vw;
     }
 
     .student-btn {
-        width: 33vw;
+        width: 20vw;
         height: 5vh;
-        font-size: 3vw;
+        font-size: 1.7vw;
         margin-bottom: 1.7rem;
     }
 
     #skillimg {
-        margin-top: 20px;
-        height: 75%;
+        
+        height: 100%;
         padding: 0.3rem;
         border-radius: 22px 22px 22px 22px;
     }
@@ -1943,32 +1951,35 @@ dt.open+dd {
     }
 
     .benefits-icon {
-        width: 13vw;
+        width: 11vw;
         border-radius: 12px;
-        height: 7.7vh;
+        height: 80%;
+    }
+    .about-us-text{
+        font-size: 1.3vw;
     }
 
 
     .button2 {
-        width: 80%;
+        width: 87%;
         height: 6vh;
         margin: 1rem;
     }
 
     .button2 h6 {
-        font-size: 3vw;
+        font-size: 0.9em;
     }
 
     .headtext2 {
-        font-size: 6vw;
+        font-size: 3.2vw;
     }
 
     .headp {
-        font-size: 3vw;
+        font-size: 1.6vw;
     }
 
     .jobp {
-        font-size: 3vw;
+        font-size: 2vw;
     }
 
     .button3 {
@@ -1977,13 +1988,19 @@ dt.open+dd {
         height: 5vh;
 
     }
+    .off-canvas img {
+    width: 22vw;
+    margin-bottom: 20px;
+    margin-left: 18px;
+
+}
 
     .button3 h6 {
-        font-size: 3vw;
+        font-size: 1.8vw;
     }
 
     .master {
-        width: 30vw;
+        width: 24vw;
     }
 
     .masterh h4 {
@@ -2000,7 +2017,7 @@ dt.open+dd {
     }
 
     #on2 {
-        margin-left: 8vw;
+        margin-left: 5vw;
     }
 
     #block {
@@ -2045,13 +2062,13 @@ dt.open+dd {
     }
 
     .diploma-btn {
-        font-size: 14px;
+        font-size: 1.0vw;
     }
 
     #diploma-btn2 {
-        width: 200px;
-        height: 40px;
-        font-size: 14px;
+        width: 12.5vw;
+        height: 6vh;
+        font-size: 1.1vw;
     }
 
     .diploma-btn-div {
@@ -2060,7 +2077,8 @@ dt.open+dd {
 
     .button4 {
         margin-right: 0vw;
-        width: 40vw;
+        width: 30vw;
+        height: auto;
     }
 
     .button4 h6 {
@@ -2080,15 +2098,15 @@ dt.open+dd {
     }
 
     .dbtn {
-        width: 30vw;
-        font-size: 2vw;
+        width: 90%;
+        font-size: 1vw;
     }
 
     .syllabus {
         margin-left: 2%;
         border: 1px solid black;
         border-radius: 30px;
-        width: 80vw;
+        width: 95%;
         padding: 1rem;
     }
 
@@ -2097,7 +2115,7 @@ dt.open+dd {
     }
 
     .book-demo {
-        font-size: 7vw;
+        font-size: 3vw;
         font-weight: 300;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
     }
@@ -2121,8 +2139,8 @@ dt.open+dd {
     }
 
     .dbtn2 {
-        width: 30vw;
-        font-size: 3vw;
+        width: 90%;
+        font-size: 1.2vw;
     }
 
     #text2 {
@@ -2142,16 +2160,16 @@ dt.open+dd {
     }
 
     .nav-img {
-        width: 23vw;
+        width: 16vw;
         padding: 0.1vw;
-        height: auto;
+        height: 5rem;
     }
 
     .project2 {
         border: 1px solid black;
         border-radius: 20px;
         margin-left: 20px;
-        width: 70vw;
+        width: 65vw;
         background-color: #FFFAEA;
     }
 
@@ -2188,7 +2206,7 @@ dt.open+dd {
 
     .diploma-pay {
         font-weight: 500;
-        margin-left: 100px;
+        margin-left: 50px;
     }
 
     .diploma-pay-2 {
@@ -2198,7 +2216,7 @@ dt.open+dd {
     }
 
     .story-img2 {
-        width: 330px;
+        width: 30vw;
     }
 
     .story-h3-3 {
@@ -2229,14 +2247,14 @@ dt.open+dd {
     }
 
     .benefits-text {
-        font-size: 3.5vw;
+        font-size: 1.9vw;
         font-weight: 540;
 
     }
 
     .benefits-para {
         color: grey;
-        font-size: 3vw;
+        font-size: 1.2vw;
         font-weight: 499
     }
 
@@ -2264,11 +2282,11 @@ dt.open+dd {
     }
 
     .story-main {
-        display: none;
+        display: block;
     }
 
     .story-main2 {
-        display: block;
+        display: none;
     }
 
     .story-div {
@@ -2277,30 +2295,37 @@ dt.open+dd {
     }
 
     .story-h3-1 {
-        font-size: 4vw;
+        font-size: 2vw;
+    }
+    .story-h3-1-2 {
+        font-size: 2.3vw;
     }
 
     .story-h3-2 {
-        font-size: 5vw;
+        font-size: 2.7vw;
     }
 
     .story-h3-3 {
-        font-size: 4.5vw;
+        font-size: 2.7vw;
+    }
+    .story-h3-3-2 {
+        font-size: 2.7vw;
+        left: 35%;
     }
 
     .story-p {
-        font-size: 3.5vw;
+        font-size: -1.5vw;
     }
 
     .story-img1 {
         width: 43vw;
-        height: 11vh;
+        height: 15vh;
         border-radius: 18px;
     }
 
     .story-img2 {
         width: 88vw;
-        height: 20vh;
+        height: 37vh;
         border-radius: 18px;
     }
 
@@ -2338,6 +2363,9 @@ dt.open+dd {
 
     .skills-h5 {
         font-size: 2.5vw;
+    }
+    .footerp2{
+        font-size: 1.5vw;
     }
 }
 
@@ -2384,8 +2412,8 @@ dt.open+dd {
         font-size: 3vw;
     }
 
-    .heada {
-        font-size: 5vw;
+   .heada {
+        font-size: 2.9vw;
     }
 
     .head {
@@ -2423,8 +2451,8 @@ dt.open+dd {
         margin-top: 10px;
     }
 
-    .headtext {
-        font-size: 6vw;
+   .headtext {
+        font-size: 3.7vw;
     }
 
     .job-heading-reason {
@@ -2475,16 +2503,17 @@ dt.open+dd {
     }
 
     .button2 h6 {
-        font-size: 3vw;
+        font-size: 2.5vw;
     }
 
     .headtext2 {
-        font-size: 6vw;
+        font-size: 3.7vw;
     }
 
-    .headp {
-        font-size: 3vw;
+     .headp {
+        font-size: 1.9vw;
     }
+
 
     .jobp {
         font-size: 3vw;
@@ -2498,7 +2527,7 @@ dt.open+dd {
     }
 
     .button3 h6 {
-        font-size: 3vw;
+        font-size: 2vw;
     }
 
     .master {
@@ -2524,6 +2553,9 @@ dt.open+dd {
 
     #block {
         padding: 2.8%;
+    }
+     .about-us-text{
+        font-size: 1.8vw;
     }
 
 
@@ -2579,7 +2611,7 @@ dt.open+dd {
 
     .button4 {
         margin-right: 0vw;
-        width: 40vw;
+        width: 30vw;
     }
 
     .button4 h6 {
@@ -2590,8 +2622,8 @@ dt.open+dd {
         font-size: 0.8rem;
     }
     .dbtn4{
-        width: 40vw;
-        font-size: 2vw;
+        width: 30vw;
+        font-size: 1vw;
     }
 
     .master-para {
@@ -2614,6 +2646,9 @@ dt.open+dd {
         width: 64vw;
         padding: 1rem;
     }
+    .icon{
+        font-size: 3vw;
+    }
 
     .coursep {
         font-size: 0.6rem;
@@ -2633,6 +2668,12 @@ dt.open+dd {
     .coursep1 {
         margin-top: 10%;
         font-size: 0.8rem;
+    }
+     .footerp2{
+        font-size: 1.5vw;
+    }
+     .footerp{
+        font-size: 2.5vw;
     }
 
     .ashu {
@@ -2721,16 +2762,14 @@ dt.open+dd {
         margin-left: 15px;
     }
 
-    .story-img2 {
-        width: 330px;
-    }
 
     .story-h3-3 {
-        left: 25%;
+        left: 2%;
     }
 
     .story-p {
         left: 10%;
+        font-size: 2vw;
     }
 
     .story-div {
@@ -2753,13 +2792,13 @@ dt.open+dd {
     }
 
     .benefits-text {
-        font-size: 3.5vw;
+        font-size: 2.5vw;
         font-weight: 540;
     }
 
     .benefits-para {
         color: grey;
-        font-size: 3vw;
+        font-size: 2vw;
         font-weight: 499
     }
 
@@ -2800,30 +2839,26 @@ dt.open+dd {
     }
 
     .story-h3-1 {
-        font-size: 4vw;
+        font-size: 2.9vw;
     }
 
     .story-h3-2 {
-        font-size: 5vw;
+        font-size: 3vw;
     }
-
     .story-h3-3 {
         font-size: 4.5vw;
     }
 
-    .story-p {
-        font-size: 3.5vw;
-    }
 
     .story-img1 {
         width: 43vw;
-        height: 11vh;
+        height: 16vh;
         border-radius: 18px;
     }
 
     .story-img2 {
         width: 88vw;
-        height: 20vh;
+        height: 26vh;
         border-radius: 18px;
     }
 
@@ -3327,7 +3362,7 @@ dt.open+dd {
     }
 
     .story-p {
-        font-size: 3.5vw;
+        font-size: 1vw;
     }
 
     .story-img1 {
@@ -3601,6 +3636,10 @@ dt.open+dd {
     .master-button {
         margin-left: 14%;
     }
+     .dbtn4{
+        width: 42vw;
+        font-size: 2.5vw;
+    }
 
     #course {
         width: 89%;
@@ -3737,12 +3776,12 @@ dt.open+dd {
         border: 1px solid black;
         border-radius: 20px;
         margin-left: 20px;
-        width: 70vw;
+        width: 74vw;
         background-color: #FFFAEA;
     }
 
     .projectimg {
-        width: 60vw;
+        width: 87%;
         margin: 14px 20px;
         border-radius: 20px;
     }
@@ -3750,6 +3789,7 @@ dt.open+dd {
 
     .project2 p {
         margin-left: 20px;
+        font-size: 3.5vw;
     }
 
     .benefit-div {
@@ -3786,11 +3826,11 @@ dt.open+dd {
     }
 
     .story-h3-3 {
-        left: 25%;
+        left: 10%;
     }
 
     .story-p {
-        left: 10%;
+        left: 5%;
     }
 
     .story-div {
