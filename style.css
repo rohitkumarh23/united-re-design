@@ -2073,7 +2073,7 @@ dt.open+dd {
 
     #diploma-btn2 {
         width: 12.5vw;
-        height: 6vh;
+        height: 4.7vh;
         font-size: 1.1vw;
     }
 
@@ -2607,7 +2607,7 @@ dt.open+dd {
 
     #diploma-btn2 {
         width: 14vw;
-        height: 6vh;
+        height: 4.7vh;
         font-size: 1.4vw;
     }
 
@@ -2628,8 +2628,8 @@ dt.open+dd {
         font-size: 0.8rem;
     }
     .dbtn4{
-        width: 30vw;
-        font-size: 1vw;
+        width: 35vw;
+        font-size: 2vw;
     }
 
     .master-para {
@@ -2649,7 +2649,7 @@ dt.open+dd {
         margin-left: 2%;
         border: 1px solid black;
         border-radius: 30px;
-        width: 64vw;
+        width: 95%;
         padding: 1rem;
     }
     .icon{
@@ -2691,7 +2691,7 @@ dt.open+dd {
     }
 
     .dbtn2 {
-        width: 25vw;
+        width: 19vw;
         font-size: 1.9vw;
     }
 
@@ -2721,12 +2721,12 @@ dt.open+dd {
         border: 1px solid black;
         border-radius: 20px;
         margin-left: 20px;
-        width: 60vw;
+        width: 80vw;
         background-color: #FFFAEA;
     }
 
     .projectimg {
-        width: 55vw;
+        width: 75vw;
         margin: 14px 20px;
         border-radius: 20px;
     }
