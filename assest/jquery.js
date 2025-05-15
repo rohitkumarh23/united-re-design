@@ -51,14 +51,20 @@ for (i = 0; i < acc.length; i++) {
 
 var webSyllabus = document.querySelector('#webSyllabus')
 
-var viewBtn = document.querySelector('#viewBtn')
+var viewBtnMore = document.querySelector('#viewBtnMore')
 
-viewBtn.addEventListener('click', function(){
+var viewBtnLess = document.querySelector('#viewBtnLess')
+
+viewBtnMore.addEventListener('click', function(){
   webSyllabus.style.display = 'block';
-  viewBtn.innerHTML = `view less`
-  viewBtn.addEventListener('click', function(){
-     webSyllabus.style.display = 'none';
-  viewBtn.innerHTML = `view more`
+  viewBtnMore.style.display = 'none';
+  viewBtnLess.style.display = 'block';
+
+  viewBtnLess.addEventListener('click', function(){
+    webSyllabus.style.display = 'none';
+    viewBtnMore.style.display = 'block';
+    viewBtnLess.style.display = 'none';
+    
   })
 })
 
