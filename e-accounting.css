@@ -979,7 +979,7 @@ dt.open+dd {
 }
 
 .tool-icon{
-    width: 50%;
+    width: 80%;
     border-radius: 20px;
     margin-top: 10%;
    
@@ -988,12 +988,6 @@ dt.open+dd {
 
 .tool-icon-container{
     width: 90%;
-}
-.top-div{
-    width: 100%;
-}
-.top-div img{
-    width: 100%;
 }
 
 .web-div{
@@ -1078,6 +1072,9 @@ dt.open+dd {
     background-size: cover;
     height: 57vh;
 
+}
+#web-development{
+    font-size: 1.2em;
 }
 .job-div{
    border: 0.6px solid rgba(0, 0, 0, 0.317);
@@ -2907,9 +2904,9 @@ dt.open+dd {
     }
 
     #diploma-btn2 {
-        width: 14vw;
-        height: 4.7vh;
-        font-size: 1.4vw;
+        width: 19vw;
+        height: 4.9vh;
+        font-size: 1em;
     }
 
     .diploma-btn-div {
@@ -3246,6 +3243,9 @@ dt.open+dd {
     }
     .detailsImg{
         border-radius: 20px;
+    }
+     #web-development{
+        font-size: 0.9em;
     }
    
 }
@@ -3811,6 +3811,10 @@ dt.open+dd {
     width: 27%;
     font-size: 2.4vw;
 }
+ #web-development{
+        font-size: 0.9em;
+        
+    }
 
 
 }
@@ -3907,6 +3911,16 @@ dt.open+dd {
         width: 95%;
         border-radius: 10px;
     }
+    #web-development{
+        font-size: 0.8em;
+        font-weight: bold;
+    }
+    .diploma-btn{
+        font-weight: bold;
+    }
+    #diploma-btn2{
+        font-weight: bold;
+    }
 
     .tool-heading{
         font-size: 1.5rem;
@@ -3957,6 +3971,10 @@ dt.open+dd {
 
         background-color: beige;
 
+    }
+    .topdiv img{
+        width: 100%;
+        border-radius: 12px;
     }
     .about-us-text{
         font-size: 3vw;
@@ -4033,10 +4051,6 @@ dt.open+dd {
     #block {
         padding: 2.8%;
     }
- 
-.top-div img{
-    width: 50px;
-}
 
 
     #row-skill {
